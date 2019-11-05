@@ -1,0 +1,28 @@
+:local .Card{
+    border: 1px solid #f2f4f9;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.2);
+    padding: 10px 10px 15px 10px;
+    background-color: #ffffff;
+    width: auto;
+    z-index: -1;
+    margin-bottom: 15px;
+}
+
+:local .CardTitle{
+    font-family: overpass-SemiBold, sans-serif, Serif;
+    font-size: 14px;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 17px;
+    margin: 15px 0;
+}
+
+:local .CardDescription{
+    font-family: overpass-Light, sans-serif, Serif;
+    color: #686868;
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 15px;
+    width: 70%;
+}

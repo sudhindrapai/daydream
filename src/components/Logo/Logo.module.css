@@ -1,0 +1,19 @@
+:local .Logo{
+    text-align: center;
+}
+
+:local .Logo a{
+    font-family: overpass-ExtraBold, sans-serif;
+    font-size: 25px;
+    padding-left: 25px;
+    font-weight: 900;
+    width: 100%;
+    color: #031a61;
+    text-decoration: none !important;
+}
+
+:local .ColBlue{
+    font-family: overpass-Light, sans-serif;
+    color: #727cf5;
+    font-weight: 300;
+}

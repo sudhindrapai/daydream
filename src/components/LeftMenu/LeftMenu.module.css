@@ -1,0 +1,27 @@
+:local .LeftMenu{
+    margin-top: 25px;
+    width: 100%;
+    text-align: left;
+}
+
+:local .LeftMenu tr:hover td{
+    color: #727cf5 !important;
+}
+
+:local .LeftMenu tr td{
+    font-size: 18px;
+    padding: 10px;
+    vertical-align: top !important;
+    transition: 0.3s ease-in;
+}
+
+:local .LeftMenu tr td:nth-child(1){
+    width: 8%;
+}
+
+:local .SectionTitle{
+    font-family: overpass-Regular, 'sans-serif';
+    font-size: 11px;
+    line-height: 17px;
+    font-weight: 700;
+}

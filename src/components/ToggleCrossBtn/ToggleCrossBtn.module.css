@@ -1,0 +1,34 @@
+:local .Container{
+    width: 28px;
+    position: relative;
+}
+
+:local .Div1{
+    position: absolute;
+    top: 0;
+    width: 82%;
+    height: 2px;
+    background-color: #000000;
+    transition: transform 1s ease;
+}
+
+:local .Div2{
+    position: absolute;
+    top: 0;
+    width: 82%;
+    height: 2px;
+    background-color: #000000;
+    transition: transform 0.8s ease;
+}
+
+:local .Default .Div1, :local .Default .Div2{
+    transform: rotate(0);
+}
+
+:local .Cross .Div1{
+    transform: rotate(45deg);
+}
+
+:local .Cross .Div2{
+    transform: rotate(135deg);
+}

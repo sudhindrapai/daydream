@@ -1,0 +1,25 @@
+:local .MenuItem a {
+    font-family: overpass-Regular, sans-serif, Serif;
+    color: #000000;
+    text-decoration: none !important;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+td.MenuItem{
+    position: relative;
+}
+
+td.MenuItem a{
+    padding-bottom: 5px;
+    position: absolute;
+    top: 8px;
+    transition: 0.3s ease-in;
+}
+td.MenuItem:hover a{
+    color: #727cf5 !important;
+}
+
+
+

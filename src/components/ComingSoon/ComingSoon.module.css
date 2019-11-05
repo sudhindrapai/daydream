@@ -1,0 +1,8 @@
+:local .ComingSoon{
+    font-size: 18px;
+    text-align: center;
+    margin: 35px 0;
+    color: #4e5af2;
+    font-weight: 900;
+    font-family: overpass-bold, sans-serif, Serif;
+}

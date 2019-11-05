@@ -1,0 +1,45 @@
+:local .Container{
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+:local .Tooltip {
+    font-family: overpass-Regular, sans-serif, Serif;
+    z-index: 10;
+    display: inline-block;
+    text-align: left;
+    height: auto;
+    min-width: 100px;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 0.9);
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 5px;
+    position: absolute;
+}
+:local .Arrow{
+    content: '';
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(45deg);
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    background-color: rgba(0,0,0,1);
+}
+:local .Show{
+    opacity: 1;
+}
+:local .Hide{
+    opacity: 0;
+}
+:local .Left{
+    right: 8px;
+    top: -23px;
+}
+:local .ArrowLeft{
+    transform: rotate(130deg);
+    top: -9px;
+    right: 4px;
+}

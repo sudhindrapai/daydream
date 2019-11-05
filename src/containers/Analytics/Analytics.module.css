@@ -1,0 +1,54 @@
+:local .TitleBar{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0 20px 0;
+}
+
+:local .ContainerTitle{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30%;
+}
+
+:local .TitleOptions{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+}
+
+:local .PR15{
+    padding-right: 10px;
+}
+
+/* CSS for chart detail */
+
+:local .ContainerDetail{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin: 15px 0 30px 0;
+}
+
+:local .ContainerDetail .Card{
+    width: 32%;
+    overflow: hidden;
+    padding: 5px 5px;
+}
+
+@media screen and (max-width: 1009px){
+    :local .ContainerDetail .Card{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 759px){
+    :local .ContainerDetail .Card{
+        width: 99%;
+    }
+}

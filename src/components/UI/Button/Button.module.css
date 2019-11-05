@@ -1,0 +1,30 @@
+:local .Btn{
+    outline: none;
+    box-shadow: none;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+:local .Transparent{
+    border: none !important;
+    background-color: transparent;
+    padding: 0 !important;
+}
+
+:local .BtnPrimary{
+    font-family: overpass-Light, sans-serif, serif;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: #727cf5;
+    padding: 7px 18px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+:local .BtnPrimary:hover{
+    background-color: #4e5af2;
+}
+
+:local .BtnDateRange{}
+

@@ -1,0 +1,52 @@
+:local .Container{
+    border: 1px solid #4e5af2;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #686868;
+    margin-right: 15px;
+    cursor: pointer;
+    font-family: overpass sans-serif;
+}
+:local .DateRangeDiv{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+:local .DateRangeIcon{
+    border-right: 1px solid #4e5af2;
+    padding: 5px 5px;
+}
+
+:local .DateRangeValues{
+    padding: 0 5px;
+    font-size: 14px;
+    font-family: overpass-Regular, sans-serif,Serif;
+    color:#686868;
+}
+
+:local .DateRangeValues time{
+    padding: 0 4px;
+}
+
+:local .DateRangeApply{
+    font-family: overpass-Light, sans-serif, Serif;
+    background-color: #4e5af2;
+    color: #ffffff;
+    padding: 4px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+:local .DateRangeCancel{
+    font-family: overpass-Light, sans-serif, Serif;
+    background-color: #ffffff;
+    color: #666666;
+    border: 1px solid #666666;
+    padding: 4px 16px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 14px;
+}

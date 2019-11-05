@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  background-color: #F9FAFB;
+}
+
+@font-face {
+  font-family: overpass-bold;
+  src: url('./fonts/Overpass-Bold.ttf');
+}
+
+@font-face {
+  font-family: overpass-ExtraBold;
+  src: url('./fonts/Overpass-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: overpass-ExtraLight;
+  src: url('./fonts/Overpass-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: overpass-Light;
+  src: url('./fonts/Overpass-Light.ttf');
+}
+
+@font-face {
+  font-family: overpass-Regular;
+  src: url('./fonts/Overpass-Regular.ttf');
+}
+
+@font-face {
+  font-family: overpass-SemiBold;
+  src: url('./fonts/Overpass-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: overpass-Thin;
+  src: url('./fonts/Overpass-Thin.ttf');
+}

@@ -1,0 +1,115 @@
+:local .Container{
+    position: relative;
+    padding-right: 25px;
+}
+:local .ProfileImg {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+:local .ProfileDropdown{
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    max-height: 320px;
+    width: 220px;
+    background-color: #ffffff;
+    border: 1px solid #f2f4f9;
+    box-shadow: 0 5px 10px 0 rgba(183, 192, 206, 0.2);
+    z-index: 3;
+    padding: 15px;
+}
+
+:local .Show{
+    display: block;
+}
+
+:local .Hide{
+    display: none;
+}
+
+/*:local .Container:hover .ProfileDropdown{*/
+    /*display: block;*/
+/*}*/
+
+:local .Profile{
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 1px solid #f2f4f9;
+}
+
+:local .DropdownProfileImg{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+:local .UserName{
+    font-family: overpass-bold, sans-serif, Serif;
+    letter-spacing: 1px;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+:local .UserEmail{
+    font-family: overpass-Regular, sans-serif, Serif;
+    font-size: 13px;
+    color: #686868;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+:local .ProfileOptions{
+    color: #383838;
+    padding: 15px 0 0 0;
+}
+
+:local .ProfileOptions table tbody tr td{
+    padding: 0 20px 3px 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+:local .ProfileOptions table tbody tr:hover{
+    color: #4E5AF2;
+}
+
+:local .ProfileOptions table tbody tr td:nth-child(even){
+    font-size: 14px;
+    font-family: overpass-Regular, sans-serif;
+    font-weight: 400;
+    transition: 0.3s ease;
+}
+
+:local .ArrowBox{
+    content: '';
+    width: 13px;
+    height: 13px;
+    background: #fff;
+    position: absolute;
+    top: -7px;
+    right: 15px;
+    z-index: 5;
+    transform: rotate(45deg);
+    border-top: 1px solid #f2f4f9;
+    border-left: 1px solid #f2f4f9;
+}
+
+:local .Logout{
+    font-size: 14px;
+    color: #383838;
+    text-decoration: none !important;
+    font-family: overpass-Regular, sans-serif;
+    font-weight: 400;
+    transition: 0.3s ease;
+}
+
+
+:local .Logout:hover{
+    color: #4E5AF2;
+}

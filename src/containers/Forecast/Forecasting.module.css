@@ -1,0 +1,26 @@
+:local .TitleBar{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    margin: 10px 0 15px 0;
+}
+
+:local .ContainerTitle{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+:local .TitleOptions{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+:local .PR15{
+    padding-right: 10px;
+}

@@ -1,0 +1,9 @@
+:local .containerTitle{
+    font-family: overpass-SemiBold, sans-serif;
+    letter-spacing: 1px;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    font-weight: 600;
+    padding-left: 8px;
+}

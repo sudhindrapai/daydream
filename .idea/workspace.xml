@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b94943d-f392-4adc-8c22-352792301ecd" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Analytics/Analytics.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="20" column="62" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/reducers/analytics.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/reducers/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="69" column="39" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Forecast/Forecasting.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="80" column="10" selection-start-line="76" selection-start-column="8" selection-end-line="80" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hoc/Layout/Layout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/actions/analytics.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>:local.</find>
+      <find>:local</find>
+      <find>hover</find>
+      <find>13</find>
+      <find>border</find>
+      <find>.</find>
+      <find>apex</find>
+      <find>status</find>
+      <find>cons</find>
+      <find>UPDATE_FORECAST_ARRAY</find>
+      <find>console</find>
+      <find>conso</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.</replace>
+      <replace>:local</replace>
+      <replace>:local .</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Spinner/Spinner.module.css" />
+        <option value="$PROJECT_DIR$/src/store/reducers/analytics.js" />
+        <option value="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.module.css" />
+        <option value="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.js" />
+        <option value="$PROJECT_DIR$/src/containers/Analytics/Analytics.js" />
+        <option value="$PROJECT_DIR$/src/components/ProfileHeader/Profile.module.css" />
+        <option value="$PROJECT_DIR$/src/components/ProfileHeader/Profile.js" />
+        <option value="$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.js" />
+        <option value="$PROJECT_DIR$/src/components/PlotlyGraph/Graph.js" />
+        <option value="$PROJECT_DIR$/src/components/FixedLeftMenuBar/tempGraph/TempGraph.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/TempGraph/TempGraph.js" />
+        <option value="$PROJECT_DIR$/src/containers/Planner/Planner.css" />
+        <option value="$PROJECT_DIR$/src/containers/Planner/Planner.js" />
+        <option value="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.css" />
+        <option value="$PROJECT_DIR$/src/components/UI/Button/Button.css" />
+        <option value="$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.module.css" />
+        <option value="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.module.css" />
+        <option value="$PROJECT_DIR$/src/components/ForecastGraph/Forecast.css" />
+        <option value="$PROJECT_DIR$/src/components/ForecastGraph/Forecast.module.css" />
+        <option value="$PROJECT_DIR$/src/containers/Forecast/Forecasting.module.css" />
+        <option value="$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.module.css" />
+        <option value="$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.js" />
+        <option value="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.js" />
+        <option value="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/index.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/actionTypes.js" />
+        <option value="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.module.css" />
+        <option value="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.css" />
+        <option value="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.module.css" />
+        <option value="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js" />
+        <option value="$PROJECT_DIR$/src/http/endpoints.js" />
+        <option value="$PROJECT_DIR$/src/components/DateRangePicker/DateRangePicker.js" />
+        <option value="$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.css" />
+        <option value="$PROJECT_DIR$/src/hoc/Layout/Layout.module.css" />
+        <option value="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.module.css" />
+        <option value="$PROJECT_DIR$/src/store/reducers/anomalies.js" />
+        <option value="$PROJECT_DIR$/src/store/reducers/forecast.js" />
+        <option value="$PROJECT_DIR$/src/containers/Forecast/Forecasting.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/analytics.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/anomalies.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/forecast.js" />
+        <option value="$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.js" />
+        <option value="$PROJECT_DIR$/src/store/reducers/header.js" />
+        <option value="$PROJECT_DIR$/src/hoc/Layout/Layout.js" />
+        <option value="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js" />
+        <option value="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/hoc" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/UI" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b94943d-f392-4adc-8c22-352792301ecd" name="Default Changelist" comment="" />
+      <created>1570350104558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570350104558</updated>
+      <workItem from="1570350106205" duration="1447000" />
+      <workItem from="1570351890986" duration="1500000" />
+      <workItem from="1570353715955" duration="565000" />
+      <workItem from="1570357312795" duration="1380000" />
+      <workItem from="1570359170035" duration="1514000" />
+      <workItem from="1570360987588" duration="1508000" />
+      <workItem from="1570362800937" duration="734000" />
+      <workItem from="1570423142585" duration="1789000" />
+      <workItem from="1570424957904" duration="1398000" />
+      <workItem from="1570426770247" duration="1293000" />
+      <workItem from="1570428585100" duration="1698000" />
+      <workItem from="1570430396555" duration="1734000" />
+      <workItem from="1570432208314" duration="1695000" />
+      <workItem from="1570434019332" duration="1183000" />
+      <workItem from="1570438370501" duration="1691000" />
+      <workItem from="1570440350060" duration="1655000" />
+      <workItem from="1570442161420" duration="1748000" />
+      <workItem from="1570444008418" duration="1788000" />
+      <workItem from="1570445825657" duration="667000" />
+      <workItem from="1570447637233" duration="1774000" />
+      <workItem from="1570449450018" duration="1370000" />
+      <workItem from="1570508265871" duration="678000" />
+      <workItem from="1570510427991" duration="1363000" />
+      <workItem from="1570512268783" duration="1322000" />
+      <workItem from="1570514102215" duration="1030000" />
+      <workItem from="1570515925399" duration="1311000" />
+      <workItem from="1570518049712" duration="1524000" />
+      <workItem from="1570522408462" duration="1405000" />
+      <workItem from="1570524273036" duration="915000" />
+      <workItem from="1570527494459" duration="1288000" />
+      <workItem from="1570529353251" duration="1153000" />
+      <workItem from="1570531851443" duration="1737000" />
+      <workItem from="1570533765612" duration="1782000" />
+      <workItem from="1570535580907" duration="1131000" />
+      <workItem from="1570537416416" duration="1746000" />
+      <workItem from="1570539230567" duration="1582000" />
+      <workItem from="1570541041408" duration="1772000" />
+      <workItem from="1570542924855" duration="598000" />
+      <workItem from="1570545276948" duration="667000" />
+      <workItem from="1570590650600" duration="679000" />
+      <workItem from="1570604358596" duration="375000" />
+      <workItem from="1570619755850" duration="482000" />
+      <workItem from="1570620267966" duration="1674000" />
+      <workItem from="1570622081044" duration="1726000" />
+      <workItem from="1570624213811" duration="376000" />
+      <workItem from="1570626210868" duration="512000" />
+      <workItem from="1570628108186" duration="1616000" />
+      <workItem from="1570629925207" duration="1774000" />
+      <workItem from="1570631733875" duration="926000" />
+      <workItem from="1570635473859" duration="1502000" />
+      <workItem from="1570637285098" duration="1235000" />
+      <workItem from="1570639550510" duration="1717000" />
+      <workItem from="1570641363717" duration="1606000" />
+      <workItem from="1570643176442" duration="122000" />
+      <workItem from="1570679192972" duration="933000" />
+      <workItem from="1570681259409" duration="4000" />
+      <workItem from="1570710611882" duration="1635000" />
+      <workItem from="1570712430245" duration="1528000" />
+      <workItem from="1570714236428" duration="1658000" />
+      <workItem from="1570716060322" duration="1528000" />
+      <workItem from="1570717870126" duration="1432000" />
+      <workItem from="1570726902529" duration="985000" />
+      <workItem from="1570766408475" duration="598000" />
+      <workItem from="1570770597981" duration="9000" />
+      <workItem from="1570793589228" duration="99000" />
+      <workItem from="1570794552592" duration="1850000" />
+      <workItem from="1570796470571" duration="1614000" />
+      <workItem from="1570798368067" duration="1732000" />
+      <workItem from="1570800610686" duration="1553000" />
+      <workItem from="1570855651549" duration="1193000" />
+      <workItem from="1570857665515" duration="508000" />
+      <workItem from="1570859497918" duration="645000" />
+      <workItem from="1570861590327" duration="158000" />
+      <workItem from="1570863408452" duration="927000" />
+      <workItem from="1570865218824" duration="1629000" />
+      <workItem from="1570872071458" duration="1028000" />
+      <workItem from="1570873840561" duration="1346000" />
+      <workItem from="1570875651471" duration="1767000" />
+      <workItem from="1570877466650" duration="1199000" />
+      <workItem from="1570880086508" duration="1331000" />
+      <workItem from="1570881901215" duration="1716000" />
+      <workItem from="1570883716366" duration="1790000" />
+      <workItem from="1570885528869" duration="1066000" />
+      <workItem from="1570888455113" duration="1479000" />
+      <workItem from="1570893700196" duration="1242000" />
+      <workItem from="1570895577875" duration="1025000" />
+      <workItem from="1570899594322" duration="1137000" />
+      <workItem from="1570935572676" duration="1610000" />
+      <workItem from="1570944058039" duration="1638000" />
+      <workItem from="1570945870477" duration="1711000" />
+      <workItem from="1570947711503" duration="1777000" />
+      <workItem from="1570949557251" duration="1303000" />
+      <workItem from="1570952866000" duration="1695000" />
+      <workItem from="1570954682191" duration="1631000" />
+      <workItem from="1570956495772" duration="1609000" />
+      <workItem from="1570958564322" duration="234000" />
+      <workItem from="1570962362104" duration="282000" />
+      <workItem from="1570976199410" duration="172000" />
+      <workItem from="1570979354160" duration="956000" />
+      <workItem from="1570981366128" duration="1204000" />
+      <workItem from="1570983180689" duration="1207000" />
+      <workItem from="1570986289839" duration="393000" />
+      <workItem from="1571024053535" duration="448000" />
+      <workItem from="1571043465585" duration="968000" />
+      <workItem from="1571051639826" duration="672000" />
+      <workItem from="1571052939266" duration="601000" />
+      <workItem from="1571055094372" duration="2000" />
+      <workItem from="1571055104886" duration="1807000" />
+      <workItem from="1571056938262" duration="966000" />
+      <workItem from="1571058766256" duration="1449000" />
+      <workItem from="1571060581758" duration="911000" />
+      <workItem from="1571103662362" duration="841000" />
+      <workItem from="1571105686076" duration="997000" />
+      <workItem from="1571111750763" duration="13000" />
+      <workItem from="1571142351259" duration="290000" />
+      <workItem from="1571142663768" duration="1381000" />
+      <workItem from="1571144495113" duration="956000" />
+      <workItem from="1571146318052" duration="1600000" />
+      <workItem from="1571188071262" duration="916000" />
+      <workItem from="1571189889190" duration="461000" />
+      <workItem from="1571196124130" duration="42000" />
+      <workItem from="1571229787004" duration="264000" />
+      <workItem from="1571230071274" duration="1787000" />
+      <workItem from="1571231880519" duration="1631000" />
+      <workItem from="1571233707136" duration="1349000" />
+      <workItem from="1571235519482" duration="222000" />
+      <workItem from="1571242109437" duration="1632000" />
+      <workItem from="1571243919706" duration="1742000" />
+      <workItem from="1571245731443" duration="400000" />
+      <workItem from="1571276851332" duration="1404000" />
+      <workItem from="1571284691896" duration="120000" />
+      <workItem from="1571316768438" duration="165000" />
+      <workItem from="1571317097193" duration="1249000" />
+      <workItem from="1571318932114" duration="1226000" />
+      <workItem from="1571320741995" duration="1134000" />
+      <workItem from="1571329899075" duration="1566000" />
+      <workItem from="1571331789787" duration="1127000" />
+      <workItem from="1571371211113" duration="7000" />
+      <workItem from="1571478465161" duration="1309000" />
+      <workItem from="1571480234423" duration="1765000" />
+      <workItem from="1571482052153" duration="1270000" />
+      <workItem from="1571483864884" duration="1227000" />
+      <workItem from="1571485692852" duration="1188000" />
+      <workItem from="1571487530269" duration="1607000" />
+      <workItem from="1571489350009" duration="741000" />
+      <workItem from="1571491359372" duration="1284000" />
+      <workItem from="1571499816213" duration="2047000" />
+      <workItem from="1571543695719" duration="1411000" />
+      <workItem from="1571545515094" duration="1559000" />
+      <workItem from="1571548867858" duration="1129000" />
+      <workItem from="1571550753022" duration="1713000" />
+      <workItem from="1571552577717" duration="1553000" />
+      <workItem from="1571554391311" duration="1637000" />
+      <workItem from="1571556205603" duration="665000" />
+      <workItem from="1571628993885" duration="5000" />
+      <workItem from="1571629348689" duration="150000" />
+      <workItem from="1571660947585" duration="1250000" />
+      <workItem from="1571662758274" duration="985000" />
+      <workItem from="1571664942347" duration="1742000" />
+      <workItem from="1571666801579" duration="866000" />
+      <workItem from="1571709180364" duration="325000" />
+      <workItem from="1571744925988" duration="1324000" />
+      <workItem from="1571746421876" duration="1787000" />
+      <workItem from="1571748234060" duration="1752000" />
+      <workItem from="1571750067541" duration="1669000" />
+      <workItem from="1571752319845" duration="1141000" />
+      <workItem from="1571754151545" duration="228000" />
+      <workItem from="1571758573272" duration="598000" />
+      <workItem from="1571761130705" duration="1023000" />
+      <workItem from="1571762943972" duration="343000" />
+      <workItem from="1571794736583" duration="790000" />
+      <workItem from="1571796546544" duration="587000" />
+      <workItem from="1571801617428" duration="996000" />
+      <workItem from="1571804120913" duration="3000" />
+      <workItem from="1571811822571" duration="183000" />
+      <workItem from="1571820505178" duration="1141000" />
+      <workItem from="1571821737835" duration="368000" />
+      <workItem from="1571831926925" duration="1066000" />
+      <workItem from="1571833639882" duration="1788000" />
+      <workItem from="1571835451881" duration="1746000" />
+      <workItem from="1571837262460" duration="830000" />
+      <workItem from="1571839081328" duration="1652000" />
+      <workItem from="1571849705932" duration="842000" />
+      <workItem from="1571876510533" duration="1563000" />
+      <workItem from="1571878356734" duration="1393000" />
+      <workItem from="1571880189185" duration="1789000" />
+      <workItem from="1571882003165" duration="968000" />
+      <workItem from="1571888115286" duration="301000" />
+      <workItem from="1571916033262" duration="1048000" />
+      <workItem from="1571917108060" duration="1369000" />
+      <workItem from="1571919061981" duration="911000" />
+      <workItem from="1571922826840" duration="1732000" />
+      <workItem from="1571924638164" duration="1557000" />
+      <workItem from="1571926449762" duration="879000" />
+      <workItem from="1571976328843" duration="410000" />
+      <workItem from="1572005165939" duration="797000" />
+      <workItem from="1572005996741" duration="1435000" />
+      <workItem from="1572007821915" duration="1238000" />
+      <workItem from="1572009689176" duration="1071000" />
+      <workItem from="1572011502045" duration="1090000" />
+      <workItem from="1572183485169" duration="699000" />
+      <workItem from="1572669594482" duration="357000" />
+      <workItem from="1572683203409" duration="718000" />
+      <workItem from="1572685215637" duration="92000" />
+      <workItem from="1572689267424" duration="43000" />
+      <workItem from="1572689333496" duration="1198000" />
+      <workItem from="1572697765024" duration="659000" />
+      <workItem from="1572704300622" duration="129000" />
+      <workItem from="1572750799167" duration="106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="230406000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2239873" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32930514" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28854313" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2239873" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32930514" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28854313" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/DaysSelector/DaysSelector.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Graph/Graph.module.css" />
+    <entry file="file://$PROJECT_DIR$/src/components/Graph/Graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Logo/Logo.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProfileHeader/Profile.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-888">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProfileHeader/Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Spinner/Spinner.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ToggleButton/Toggle.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Tooltip/Tooltip.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#253#289#0" expanded="true" />
+            <element signature="e#424#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Anomalies/Anomalies.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="24" lean-forward="true" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Forecast/Forecasting.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="1" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/http/endpoints.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DateRangePicker/DateRangePicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hoc/Layout/Layout.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/anomalies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/forecast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.css" />
+    <entry file="file://$PROJECT_DIR$/src/store/actions/anomalies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2385">
+          <caret line="4548" column="14" selection-start-line="4548" selection-start-column="14" selection-end-line="4548" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#153#137752#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/forecast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3105">
+          <caret line="209" column="17" selection-start-line="206" selection-start-column="16" selection-end-line="209" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Analytics/Analytics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/analytics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="39" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Forecast/Forecasting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="80" column="10" selection-start-line="76" selection-start-column="8" selection-end-line="80" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hoc/Layout/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/analytics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
