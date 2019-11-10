@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b94943d-f392-4adc-8c22-352792301ecd" name="Default Changelist" comment="" />
+    <list default="true" id="3b94943d-f392-4adc-8c22-352792301ecd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Graph/Graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ApexGraph/Graph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Analytics/Analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Analytics/Analytics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Planner/Planner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Planner/Planne.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/analytics.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,100 +26,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Analytics/Analytics.js">
+        <entry file="file://$PROJECT_DIR$/src/store/actions/analytics.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="20" column="62" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="62" />
+            <state relative-caret-position="1638">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
               <folding>
-                <element signature="e#0#49#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/reducers/analytics.js">
+        <entry file="file://$PROJECT_DIR$/src/store/actions/anomalies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="522">
+              <caret line="4548" column="14" selection-start-line="4548" selection-start-column="14" selection-end-line="4548" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#153#137752#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/reducers/header.js">
+        <entry file="file://$PROJECT_DIR$/src/store/actions/forecast.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="69" column="39" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="39" />
+            <state relative-caret-position="1352">
+              <caret line="209" column="17" selection-start-line="206" selection-start-column="16" selection-end-line="209" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js">
+        <entry file="file://$PROJECT_DIR$/src/store/reducers/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Forecast/Forecasting.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="80" column="10" selection-start-line="76" selection-start-column="8" selection-end-line="80" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hoc/Layout/Layout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/actions/analytics.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="142">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -136,6 +95,7 @@
       <find>UPDATE_FORECAST_ARRAY</find>
       <find>console</find>
       <find>conso</find>
+      <find>data</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -144,28 +104,16 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Spinner/Spinner.module.css" />
-        <option value="$PROJECT_DIR$/src/store/reducers/analytics.js" />
-        <option value="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.module.css" />
-        <option value="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.js" />
-        <option value="$PROJECT_DIR$/src/containers/Analytics/Analytics.js" />
-        <option value="$PROJECT_DIR$/src/components/ProfileHeader/Profile.module.css" />
-        <option value="$PROJECT_DIR$/src/components/ProfileHeader/Profile.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.js" />
-        <option value="$PROJECT_DIR$/src/components/PlotlyGraph/Graph.js" />
         <option value="$PROJECT_DIR$/src/components/FixedLeftMenuBar/tempGraph/TempGraph.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/TempGraph/TempGraph.js" />
         <option value="$PROJECT_DIR$/src/containers/Planner/Planner.css" />
         <option value="$PROJECT_DIR$/src/containers/Planner/Planner.js" />
         <option value="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.js" />
-        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.css" />
         <option value="$PROJECT_DIR$/src/components/UI/Button/Button.css" />
         <option value="$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.module.css" />
@@ -183,7 +131,6 @@
         <option value="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.module.css" />
         <option value="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.css" />
         <option value="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.module.css" />
-        <option value="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js" />
         <option value="$PROJECT_DIR$/src/http/endpoints.js" />
         <option value="$PROJECT_DIR$/src/components/DateRangePicker/DateRangePicker.js" />
         <option value="$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.css" />
@@ -192,14 +139,27 @@
         <option value="$PROJECT_DIR$/src/store/reducers/anomalies.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/forecast.js" />
         <option value="$PROJECT_DIR$/src/containers/Forecast/Forecasting.js" />
-        <option value="$PROJECT_DIR$/src/store/actions/analytics.js" />
-        <option value="$PROJECT_DIR$/src/store/actions/anomalies.js" />
-        <option value="$PROJECT_DIR$/src/store/actions/forecast.js" />
         <option value="$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.js" />
-        <option value="$PROJECT_DIR$/src/store/reducers/header.js" />
         <option value="$PROJECT_DIR$/src/hoc/Layout/Layout.js" />
         <option value="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js" />
         <option value="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js" />
+        <option value="$PROJECT_DIR$/src/components/UI/Button/Button.js" />
+        <option value="$PROJECT_DIR$/src/components/Table/Table.js" />
+        <option value="$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css" />
+        <option value="$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.js" />
+        <option value="$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.module.css" />
+        <option value="$PROJECT_DIR$/src/containers/Analytics/Analytics.js" />
+        <option value="$PROJECT_DIR$/src/components/Table/Table.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Graph/Graph.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/ApexGraph/Graph.js" />
+        <option value="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/analytics.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/anomalies.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/forecast.js" />
+        <option value="$PROJECT_DIR$/src/store/reducers/header.js" />
       </list>
     </option>
   </component>
@@ -223,8 +183,296 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="AnomaliesGraph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ApexGraph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="CardWithChart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ComingSoon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ContainerTitle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="DateRangePicker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="DaysSelector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ErrorAlert" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="FixedLeftMenuBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ForecastGraph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="HeaderMenu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="LeftMenu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="LeftMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="MenuItem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Logo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="NotificationsHeader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="PlotlyGraph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ProfileHeader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Spinner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Table" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ToggleButton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ToggleCrossBtn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Button" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="ButtonDropdown" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Tooltip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Analytics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="AnalyticsDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Anomalies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Forecast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Planner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Realtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Schedule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hoc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hoc" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -484,11 +732,40 @@
       <workItem from="1572697765024" duration="659000" />
       <workItem from="1572704300622" duration="129000" />
       <workItem from="1572750799167" duration="106000" />
+      <workItem from="1572964697245" duration="870000" />
+      <workItem from="1572966498832" duration="1164000" />
+      <workItem from="1572968338604" duration="1061000" />
+      <workItem from="1572970156477" duration="465000" />
+      <workItem from="1572972471345" duration="598000" />
+      <workItem from="1573010813812" duration="6000" />
+      <workItem from="1573043644417" duration="1784000" />
+      <workItem from="1573045452299" duration="1626000" />
+      <workItem from="1573047262759" duration="1783000" />
+      <workItem from="1573049076529" duration="1066000" />
+      <workItem from="1573055693176" duration="1046000" />
+      <workItem from="1573058186656" duration="490000" />
+      <workItem from="1573097807605" duration="8000" />
+      <workItem from="1573122425936" duration="1467000" />
+      <workItem from="1573123931084" duration="1628000" />
+      <workItem from="1573125748544" duration="1685000" />
+      <workItem from="1573127642383" duration="1294000" />
+      <workItem from="1573129466408" duration="1633000" />
+      <workItem from="1573131284062" duration="1157000" />
+      <workItem from="1573133101566" duration="1369000" />
+      <workItem from="1573142977984" duration="576000" />
+      <workItem from="1573186459206" duration="7000" />
+      <workItem from="1573206265743" duration="800000" />
+      <workItem from="1573207282458" duration="1548000" />
+      <workItem from="1573209160547" duration="961000" />
+      <workItem from="1573211427190" duration="1156000" />
+      <workItem from="1573214028123" duration="1364000" />
+      <workItem from="1573216257294" duration="787000" />
+      <workItem from="1573273164370" duration="413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230406000" />
+    <option name="totallyTimeSpent" value="260218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -512,26 +789,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2239873" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32930514" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28854313" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -577,49 +834,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/DaysSelector/DaysSelector.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Graph/Graph.module.css" />
-    <entry file="file://$PROJECT_DIR$/src/components/Graph/Graph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.module.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Logo/Logo.module.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1458">
@@ -657,13 +871,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.module.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
@@ -673,13 +880,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/UI/Tooltip/Tooltip.module.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.module.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -718,36 +918,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/actions/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/actionTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#253#289#0" expanded="true" />
-            <element signature="e#424#482#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,16 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -789,13 +953,6 @@
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -830,13 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/anomalies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/reducers/forecast.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
@@ -845,74 +995,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.css" />
-    <entry file="file://$PROJECT_DIR$/src/store/actions/anomalies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2385">
-          <caret line="4548" column="14" selection-start-line="4548" selection-start-column="14" selection-end-line="4548" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#153#137752#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/forecast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3105">
-          <caret line="209" column="17" selection-start-line="206" selection-start-column="16" selection-end-line="209" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Analytics/Analytics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="20" column="62" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/analytics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="39" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Forecast/Forecasting.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
+        <state relative-caret-position="1110">
           <caret line="80" column="10" selection-start-line="76" selection-start-column="8" selection-end-line="80" selection-end-column="10" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
@@ -937,23 +1022,223 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#253#289#0" expanded="true" />
+            <element signature="e#424#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Table/Table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="120" column="39" lean-forward="true" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/analytics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/anomalies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Analytics/Analytics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="107" column="41" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Table/Table.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ApexGraph/Graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/actions/analytics.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+        <state relative-caret-position="1638">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js">
+    <entry file="file://$PROJECT_DIR$/src/store/actions/anomalies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="522">
+          <caret line="4548" column="14" selection-start-line="4548" selection-start-column="14" selection-end-line="4548" selection-end-column="14" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#153#137752#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/forecast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1352">
+          <caret line="209" column="17" selection-start-line="206" selection-start-column="16" selection-end-line="209" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
         </state>
       </provider>
     </entry>

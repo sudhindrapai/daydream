@@ -1,0 +1,28 @@
+:local .Container{}
+
+:local .Container table{
+    border-collapse: collapse;
+    margin: 5px auto;
+    font-family: overpass-Regular, SansSerif, serif;
+}
+
+:local .TableHeaderTag{
+    background-color: #4e5af2;
+    color: #ffffff;
+    padding: 8px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100px;
+    border: 1px solid #ededed !important;
+}
+
+:local .TableBodyTag{
+    padding: 8px 10px;
+    text-align: center;
+    border: 1px solid #ededed !important;
+}
+:local .AnalyticsDetail {
+    background-color: #4e5af2 !important;
+    color: #ffffff;
+    padding: 8px 10px;
+}

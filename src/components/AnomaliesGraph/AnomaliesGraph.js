@@ -3,6 +3,7 @@ import PlotlyGraph from '../PlotlyGraph/PlotlyGraph'
 import classes from './AnomaliesGraph.module.css';
 
 const anomaliesGraph = (props) => {
+    console.log(props.graphData)
     return(
         <div className={classes.Card}>
             <div className={classes.CardTitle}>

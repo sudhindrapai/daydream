@@ -2,42 +2,14 @@ import React, {Component} from 'react';
 import classes from './CardWithChart.module.css';
 import Tooltip from '../../components/UI/Tooltip/Tooltip';
 import {Info} from "react-feather";
-import {Line} from 'react-chartjs-2';
+import ApexChart from '../../components/ApexGraph/Graph';
 class CardWithChart extends Component {
-    data = {
-        labels: this.props.xAxisValues,
-        datasets: [{
-            label: this.props.cardTitle,
-            data:this.props.yAxisValues,
-            borderColor: this.props.lineColor,
-            backgroundColor: 'rgba(0,0,0,0.0)',
-            borderWidth: 2,
-        }]
-    };
-
-    options= {
-        legend: {
-            display: false
-        },
-        scales: {
-            yAxes: [{
-                display: false
-            }],
-            xAxes: [
-                {
-                    display: false
-                }
-            ]
-        },
-        elements: {
-            point: {
-                radius: 0,
-            }
-        }
-    };
-
 
     render() {
+        let graphObj = {};
+        graphObj["xAxis"] = this.props.xAxisValues;
+        graphObj["graphValues"] = this.props.yAxisValues;
+        graphObj["label"] = this.props.cardTitle;
         return (
             <div className={classes.Container}>
                 <div className={classes.CardTitleSection}>
@@ -55,10 +27,7 @@ class CardWithChart extends Component {
                         {this.props.count}
                     </div>
                     <div className={classes.Graph}>
-                        <Line
-                            data={this.data}
-                            options={this.options}
-                        />
+                        <ApexChart graphObj = {graphObj} />
                     </div>
                 </div>
             </div>

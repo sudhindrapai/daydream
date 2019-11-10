@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import {connect} from 'react-redux';
+import {withRouter} from 'react-router-dom';
 import {DownloadCloud} from "react-feather";
 
 import * as actions from '../../store/actions/index';
@@ -12,9 +13,15 @@ import CardWithGraph from '../../components/CardWithChart/CardWithChart';
 import Button from '../../components/UI/Button/Button';
 import Spinner from '../../components/Spinner/Spinner';
 import ErrorAlert from '../../components/ErrorAlert/ErrorAlert';
+import AnalyticsDetail from '../../containers/AnalyticsDetail/AnalyticsDetail';
 
 
 class Analytics extends Component {
+
+    state={
+      isDetailViewLoaded: false,
+      selectedLabel:""
+    };
 
     updateDateRangeDateHandler = (dateRangeObj) => {
         this.props.onApplyDateRange(dateRangeObj);
@@ -28,11 +35,27 @@ class Analytics extends Component {
         this.props.getAnalyticsResponse(this.props.accountType, this.props.startDate, this.props.endDate);
     }
 
+    loadAnalyticsDetail = (id) => {
+        let updatedLabel = (id.split(" ").join("_")).toLowerCase();
+        this.setState({
+            isDetailViewLoaded: true,
+            selectedLabel: updatedLabel
+        })
+    };
+
+    toggleAnalyticsView = () => {
+        this.setState({
+            ...this.state,
+            isDetailViewLoaded: false,
+            selectedLabel:""
+        })
+    };
+
     render() {
         let analyticsCards = null;
         analyticsCards = this.props.analyticsResponse.map((analyticsObj, index) => {
             return (
-                <div key={index} className={classes.Card}>
+                <div onClick={() => {this.loadAnalyticsDetail(analyticsObj.label)}} key={index} className={classes.Card}>
                     <CardWithGraph xAxisValues={analyticsObj.xAxisValues}
                                    yAxisValues={analyticsObj.yAxisValues}
                                    lineColor="#4e5af2"
@@ -52,7 +75,7 @@ class Analytics extends Component {
                                 message={this.props.errorMessage} />
                 </Fragment>
         );
-        if (!this.props.isLoading) {
+        if (!this.props.isLoading && !this.state.isDetailViewLoaded) {
             analyticsView = (
                 <Fragment>
                     <div className={classes.TitleBar}>
@@ -77,6 +100,16 @@ class Analytics extends Component {
                                 message={this.props.errorMessage} />
                 </Fragment>
             )
+        } else if (!this.props.isLoading && this.state.isDetailViewLoaded){
+                            analyticsView =
+                            <Fragment>
+                                <div className={classes.MT5}>
+                                <Button type={"button"} btnType={"BtnPrimary"} clicked={this.toggleAnalyticsView}>
+                                    CLOSE
+                                </Button>
+                                </div>
+                                <AnalyticsDetail selectedCard={this.state.selectedLabel} />
+                            </Fragment>
         }
         return (
             analyticsView
@@ -109,4 +142,4 @@ const mapDispatchToProps = (dispatch) => {
     }
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Analytics);
+export default connect(mapStateToProps, mapDispatchToProps)(withRouter(Analytics));

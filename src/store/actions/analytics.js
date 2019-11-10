@@ -16,8 +16,8 @@ const metricsDetailResponse = {
         "2017-03": "1",
         "2017-04": "100",
         "2017-05": "60",
-        "2017-01": "10",
-        "2017-02": "5"
+        "2017-06": "10",
+        "2017-07": "5"
     },
     "metricValue": "100000",
     "growthValue": null,
@@ -136,7 +136,6 @@ export const getAnalyticsMetrics = (accountType, startDate, endDate) => {
             })
             .catch((error) => {
                 console.log(error);
-
 
                 let responseStatus = metricsListResponse.status;
                 let isSuccess = (/success/i).test(responseStatus);

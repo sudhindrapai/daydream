@@ -9,11 +9,13 @@ import Layout from "./hoc/Layout/Layout";
 import Schedule from './containers/Schedule/Schedule';
 import Anomalies from './containers/Anomalies/Anomalies';
 import Planner from './containers/Planner/Planner';
+import AnalyticsDetail from './containers/AnalyticsDetail/AnalyticsDetail';
 
 function App() {
     return (
         <Layout>
             <Switch>
+                <Route path={"/analytics/:title"} component={AnalyticsDetail} />
                 <Route path={"/analytics"} component={Analytics}/>
                 <Route path={"/forecast"} component={Forecasting}/>
                 <Route path={"/intraday"} component={Intraday}/>

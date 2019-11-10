@@ -1,0 +1,104 @@
+:local .Container{
+    border: 1px solid #f2f4f9;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.2);
+    padding: 10px 10px 15px 10px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+:local .HeaderBar{
+    font-family: overpass-Regular, SansSerif, serif;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+:local .Previous{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #4e5af2;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80px;
+}
+
+:local .CardLabel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+:local .Next{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #4e5af2;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80px;
+    text-align: center;
+}
+
+:local .CountSection{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+:local .MetricsCount{
+    font-size: 36px;
+    font-family: overpass-SemiBold, SansSerif, serif;
+}
+
+:local .ViewToggleButtonSection{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+:local .ToggleBtnContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-family: overpass-Light, SansSerif, serif;
+}
+
+:local .ToggleBtnContainer .ToggleDiv:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+:local .ToggleBtnContainer .ToggleDiv:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+:local .ToggleDiv{
+    border: 1px solid #4e5af2;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+:local .Selected{
+    background-color: #4e5af2;
+    color: #ffffff;
+}
+
+:local .Disabled{
+    opacity: 0.3;
+    cursor: not-allowed;
+}
