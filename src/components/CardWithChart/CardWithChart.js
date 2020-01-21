@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import classes from './CardWithChart.module.css';
 import Tooltip from '../../components/UI/Tooltip/Tooltip';
 import {Info} from "react-feather";
-import ApexChart from '../../components/ApexGraph/Graph';
+import ApexChart from '../ApexGraph/AnalyticsGraph';
 class CardWithChart extends Component {
 
     render() {

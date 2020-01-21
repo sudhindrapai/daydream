@@ -1,0 +1,54 @@
+:local .Container{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+:local .CheckboxOptions{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+:local .ConfigurationOption{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+:local .ConfigurationOption img{
+    margin-right: 10px;
+}
+
+:local .Label{
+    font-family: overpass-Regular, SansSerif, serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+:local .CsvHeaders{
+    box-sizing: border-box;
+    width: 50%;
+    margin-top: 30px;
+}
+
+:local .DuplicateHeaderLabel{
+    font-size: 12px;
+    font-family: overpass-Regular, SansSerif, serif;
+}
+
+:local .NavigationDiv{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 15px;
+    margin-top: 30px;
+}

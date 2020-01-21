@@ -1,0 +1,41 @@
+:local .Container{
+    width: 100%;
+    margin-top: 60px;
+}
+
+:local .Container table,
+:local .Container table thead,
+:local .Container table tbody{
+    width: 100%;
+    padding: 30px;
+}
+
+:local .Container table thead tr td,
+:local .Container table tbody tr td{
+    width: 33%;
+}
+
+:local .Container table thead tr td{
+    font-family: overpass-SemiBold,SansSerif,serif;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+    padding: 15px 0;
+}
+
+:local .Container table tbody tr td{
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+    padding: 16px 0;
+    font-size: 14px;
+    font-family: overpass-Light, SansSerif,serif;
+}
+
+:local .NavigationButtonsDiv{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 15px;
+    margin-top: 30px;
+}

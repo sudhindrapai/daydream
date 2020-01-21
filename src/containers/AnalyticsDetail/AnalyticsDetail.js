@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
+import * as action from '../../store/actions/index';
 import {ChevronLeft, ChevronRight} from "react-feather";
 
 import classes from './AnalyticsDetail.module.css';
@@ -55,6 +56,7 @@ class AnalyticsDetail extends Component {
             isGraphViewLoaded: true
         });
         this.updateResponseObj(this.props.selectedCard);
+        this.props.loadUserView();
     }
 
     toggleGraphAndTableView = (isGraphViewSelected) => {
@@ -122,7 +124,8 @@ class AnalyticsDetail extends Component {
             graphObj["type"] = 'scatter';
             graphObj["line"] = {
                 color: '#4e5af2',
-                width: 2
+                width: 2,
+                shape:"spline"
             };
             graphObj["x"] = this.state.graphObj.xAxis;
             graphObj["y"] = this.state.graphObj.yAxis;
@@ -207,4 +210,10 @@ const mapStateToProps = (state) => {
     }
 };
 
-export default connect(mapStateToProps)(AnalyticsDetail);
+const mapDispatchToProps = (dispatch) => {
+    return{
+        loadUserView: () => dispatch(action.changeAdminView(false))
+    }
+};
+
+export default connect(mapStateToProps,mapDispatchToProps)(AnalyticsDetail);

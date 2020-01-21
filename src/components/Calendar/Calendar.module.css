@@ -1,0 +1,107 @@
+:local .Container{
+}
+
+:local .CalendarData{
+position: absolute;
+    top: 0;
+}
+:local .CalendarWeekCells{
+    position: relative;
+}
+
+:local .Container table{
+    border-collapse: collapse !important;
+}
+
+:local .CalendarWeekCells table.weekSkeleton {
+    border-collapse: collapse;
+    border: none !important;
+}
+
+:local .CalendarWeekCells .weekSkeleton tbody tr td{
+    min-width: 102px;
+    height: 80px;
+    padding: 0 !important;
+    border-top: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    border-bottom: none;
+}
+
+:local .Container table{
+    border-collapse: collapse;
+}
+
+:local .CalendarHeader table tbody tr td{
+    border-collapse: collapse;
+    min-width: 100px;
+    font-size: 14px !important;
+    text-align: center;
+    font-family: overpass-SemiBold, sans-serif, serif;
+    border-top: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    border-bottom: none ;
+}
+
+:local .LasWeek{
+    border-bottom: 1px solid #DDDDDD !important;
+}
+
+
+:local .CalendarBody table thead tr td{
+    border-collapse: collapse;
+    border-bottom: none;
+    min-width: 100px;
+    font-size: 12px;
+    text-align: right;
+    font-family: overpass-Regular, sans-serif, serif;
+}
+
+
+:local .CalendarBody table tbody tr td{
+    min-width: 101px;
+}
+
+:local .CalendarDay{
+    background-color: #ffffff;
+}
+
+:local .EventTag{
+    display: block;
+    border-radius: 1px;
+    padding: 2px 3px;
+    font-size: 12px;
+    border-left: 3px solid;
+    font-family: overpass-Regular, sans-serif, serif;
+    text-transform: capitalize;
+}
+
+:local .event1{
+    background-color: #ffe6ec;
+    border-color: #f36;
+}
+
+:local .event2{
+    background-color: rgba(16,183,89, .25);
+    border-color: #10b759;
+}
+
+:local .event3{
+    background-color: rgba(91,71,251,.2);
+    border-color: #5b47fb;
+}
+
+:local .event4{
+    background-color: rgba(253,126,20,.25);
+    border-color: #fd7e14;
+}
+:local .event5{
+    background-color: rgba(1,104,250, .15);
+    border-color: #0168fa;
+}
+
+:local .event6{
+    background-color: rgba(241,0,117,.25);
+    border-color: #f10075;
+}

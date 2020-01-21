@@ -1,0 +1,150 @@
+:local .Input{
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+:local .Label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-family: overpass-Thin, SansSerif, serif;
+    text-transform: capitalize;
+}
+
+:local .inputElement{
+    outline: none;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    font: inherit;
+    padding: 4px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 4px;
+}
+
+:local .inputElement:focus{
+    outline: none;
+    background-color: #cccccc;
+}
+
+:local .Invalid{
+     border: 1px solid #fb2629;
+    background-color: #FDA49A;
+}
+
+:local .inputElement::placeholder{
+    font-family: overpass-Regular,SansSerif,serif;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+
+/* CSS for admin input */
+:local .AdminInputElement{
+    outline: none;
+    border: 1px solid #262f43;
+    background-color: #0c1427;
+    color: #f9fafb;
+    font: inherit;
+    padding: 4px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 4px;
+}
+
+:local .AdminInputElement::placeholder{
+    font-family: overpass-Regular,SansSerif,serif;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+:local .AdminInputElement:focus{
+    background-color: #000000;
+}
+
+
+:local .Input select{
+    color: #f9fafb;
+    font-size: 12px;
+    font-family: overpass-Regular,SansSerif,serif;
+}
+
+
+:local .Input textarea{
+    height: 100px;
+    resize: none;
+}
+
+
+/* ----- CSS for multi select ----  */
+.AdminMultiSelect{
+    position: relative;
+}
+
+.MultiSelect{
+    position: relative;
+}
+
+.AdminMultiSelect input{
+    font-family: overpass-Regular, SansSerif,serif;
+    outline: none;
+    border: 1px solid #262f43;
+    background-color: #0c1427;
+    color: #f9fafb;
+    padding: 4px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.MultiSelect input{
+    font-family: overpass-Regular, SansSerif,serif;
+    outline: none;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    padding: 4px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.multiSelectOptions{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    border: 1px solid #262f43;
+    background-color: #0c1427;
+    z-index: 1;
+    padding: 10px 0 0 0;
+}
+
+.MultiSelectOption{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    height: 35px;
+    margin-bottom: 0;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.MultiSelectOption:hover{
+    background-color: rgba(114,124,245,0.3);
+}
+
+.MultiSelectLabel{
+    font-family: overpass-Regular, SansSerif,serif;
+    font-size: 14px;
+    margin-bottom: 0 !important;
+    margin-left: 10px;
+}

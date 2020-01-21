@@ -13,9 +13,24 @@
     z-index: 1;
 }
 
+:local .AdminHeaderMenu{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    border-bottom: 1px solid #262f43;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;
+    background-color: #0B1327;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
 :local .ProfileSection{
     padding: 15px 0;
 }
+
 :local .HeaderMenuItem{
     padding: 0 11px;
     transition: 0.3s, ease;

@@ -17,12 +17,25 @@ import analyticsReducer from './store/reducers/analytics';
 import headerReducer from './store/reducers/header';
 import forecastReducer from './store/reducers/forecast';
 import anomaliesReducer from './store/reducers/anomalies';
+import schedulerReducer from './store/reducers/schedule';
+import agentsReducer from './store/reducers/agents';
+import integrationImport from './store/reducers/integration-import';
+import integrationMappingReducer from './store/reducers/integration-mapping';
+import clientReducer from './store/reducers/client'
+
+import layoutReducer from './store/reducers/layout';
 
 const rootReducer = combineReducers({
     analytics: analyticsReducer,
     header: headerReducer,
     forecast: forecastReducer,
-    anomalies:anomaliesReducer
+    anomalies:anomaliesReducer,
+    scheduler:schedulerReducer,
+    agents:agentsReducer,
+    integrationImportReducer:integrationImport,
+    integrationMapping:integrationMappingReducer,
+    layout:layoutReducer,
+    clientReducer:clientReducer
 });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

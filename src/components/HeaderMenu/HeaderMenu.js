@@ -63,27 +63,48 @@ class HeaderMenu extends Component{
         });
     };
 
+    headerMenuContainerClass = null;
     render() {
-        return(
-            <div className={classes.HeaderMenu}>
-                <div className={[classes.ProfileSection, classes.HeaderMenuItem].join(" ")}>
-                    <DropdownButton clicked={this.onChangeAccountTypeHandle}
-                                    dropdownValue={this.props.accounts}>
-                        {"ACCOUNT-"+this.props.accountType}
-                    </DropdownButton>
+
+        if (this.props.isAdminViewLoaded) {
+            this.headerMenuContainerClass = classes.AdminHeaderMenu;
+        } else {
+            this.headerMenuContainerClass = classes.HeaderMenu;
+        }
+
+        if (this.props.isAdminViewLoaded) {
+            return(
+                <div className={this.headerMenuContainerClass}>
+                    <div className={classes.HeaderMenuItem}>
+                        <Notifications />
+                    </div >
+                    <div className={classes.HeaderMenuItem}>
+                        <Profile color={"#eef4ff"}/>
+                    </div>
                 </div>
-                <div onMouseEnter={this.changeToThemeColor} onMouseLeave={this.changeToDefaultColor}
-                     className={classes.HeaderMenuItem}>
-                <Calendar color={this.state.iconColor} size={22} />
+            )
+        } else {
+            return(
+                <div className={this.headerMenuContainerClass}>
+                    <div className={[classes.ProfileSection, classes.HeaderMenuItem].join(" ")}>
+                        <DropdownButton clicked={this.onChangeAccountTypeHandle}
+                                        dropdownValue={this.props.accounts}>
+                            {"ACCOUNT-"+this.props.accountType}
+                        </DropdownButton>
+                    </div>
+                    <div onMouseEnter={this.changeToThemeColor} onMouseLeave={this.changeToDefaultColor}
+                         className={classes.HeaderMenuItem}>
+                        <Calendar color={this.state.iconColor} size={22} />
+                    </div>
+                    <div className={classes.HeaderMenuItem}>
+                        <Notifications />
+                    </div >
+                    <div className={classes.HeaderMenuItem}>
+                        <Profile color={"#535353"}/>
+                    </div>
                 </div>
-                <div className={classes.HeaderMenuItem}>
-                <Notifications />
-                </div >
-                <div className={classes.HeaderMenuItem}>
-                <Profile color={"#535353"}/>
-                </div>
-            </div>
-        )
+            )
+        }
     }
 }
 
@@ -100,6 +121,7 @@ const mapStateToProps = (state) => {
       forecastMetrics: state.forecast.forecastRequestMetrics,
       daysCount: state.forecast.selectedDaysCount,
       anomaliesRequestMetrics: state.anomalies.anomaliesRequestMetrics,
+      isAdminViewLoaded:state.layout.isAdminViewLoaded
   }
 };
 

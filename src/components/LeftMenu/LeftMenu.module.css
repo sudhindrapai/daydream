@@ -25,3 +25,39 @@
     line-height: 17px;
     font-weight: 700;
 }
+
+
+:local .AdminLeftMenu{
+    margin-top: 25px;
+    width: 100%;
+    text-align: left;
+}
+
+:local .AdminLeftMenu tr:hover td a{
+    color: #727cf5 !important;
+}
+
+:local .AdminLeftMenu tr td{
+    font-size: 18px;
+    padding: 6px 10px;
+    vertical-align: top !important;
+    transition: 0.3s ease-in;
+}
+
+:local .AdminLeftMenu tr td:nth-child(1){
+    width: 10px;
+}
+
+:local .PT22{
+    padding-top: 22px !important;
+}
+
+:local .LeftMenuTitle{
+    font-family: overpass-SemiBold, SansSerif,serif;
+    font-size: 11px !important;
+    color: #ffffff !important;
+}
+
+:local .LeftMenuTitle:hover{
+    color: #ffffff !important;
+}

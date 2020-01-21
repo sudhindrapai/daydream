@@ -1,0 +1,39 @@
+:local .Container{
+    font-family: overpass-SemiBold, SansSerif, serif;
+}
+
+:local .HeaderDiv{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 30px 0;
+}
+
+:local .LayoutHeader{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-basis: 40%;
+}
+:local .ButtonDiv{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 60%;
+}
+
+:local .EmptyClients{
+    font-family: overpass-SemiBold, SansSerif, serif;
+    font-size: 18px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    height: 150px;
+    color: #ffffff;
+}

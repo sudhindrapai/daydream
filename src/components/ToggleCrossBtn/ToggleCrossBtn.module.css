@@ -3,7 +3,7 @@
     position: relative;
 }
 
-:local .Div1{
+:local .Container .Div1{
     position: absolute;
     top: 0;
     width: 82%;
@@ -12,7 +12,7 @@
     transition: transform 1s ease;
 }
 
-:local .Div2{
+:local .Container .Div2{
     position: absolute;
     top: 0;
     width: 82%;
@@ -31,4 +31,29 @@
 
 :local .Cross .Div2{
     transform: rotate(135deg);
+}
+
+
+:local .AdminContainer{
+    width: 28px;
+    position: relative;
+}
+
+
+:local .AdminContainer .Div1{
+    position: absolute;
+    top: 0;
+    width: 82%;
+    height: 2px;
+    background-color: #eef4ff;
+    transition: transform 1s ease;
+}
+
+:local .AdminContainer .Div2{
+    position: absolute;
+    top: 0;
+    width: 82%;
+    height: 2px;
+    background-color: #eef4ff;
+    transition: transform 0.8s ease;
 }

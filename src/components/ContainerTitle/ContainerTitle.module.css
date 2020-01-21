@@ -7,3 +7,13 @@
     font-weight: 600;
     padding-left: 8px;
 }
+
+:local .AdminContainerTitle{
+    font-family: overpass-SemiBold, sans-serif;
+    letter-spacing: 1px;
+    font-size: 22px;
+    line-height: 27px;
+    color: #f9fafb;
+    font-weight: 600;
+    padding-left: 8px;
+}

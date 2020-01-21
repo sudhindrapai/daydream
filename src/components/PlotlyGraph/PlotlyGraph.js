@@ -28,11 +28,15 @@ class PlotlyGraph extends React.Component {
                 l: 50, //left margin
                 r: 20, //right margin
                 b: 20 //bottom margin
+            },
+            config:{
+                'displayModeBar': true
             }
         };
         let data = this.props.graphObj;
         return (
             <Plot
+                config={{displayModeBar: true}}
                 data={data}
                 layout={layout}
             />

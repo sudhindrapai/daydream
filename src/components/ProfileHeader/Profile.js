@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import {User, Edit, LogOut} from 'react-feather';
+import {withRouter} from 'react-router-dom'
+import {User, Edit, LogOut, Repeat} from 'react-feather';
 import classes from './Profile.module.css';
 
 class Profile extends Component{
@@ -17,12 +18,31 @@ class Profile extends Component{
         });
     };
 
+    toggleAdminView = () => {
+        if (this.props.isAdminViewLoaded) {
+            this.props.history.push("/");
+        } else {
+            this.props.history.push("/admin/dashboard");
+        }
+    };
+
     render() {
 
         if (this.state.isDropdownVisible) {
-            this.dropdownClasses = [classes.ProfileDropdown, classes.Show].join(" ");
+            if(this.props.isAdminViewLoaded){
+                this.dropdownClasses = [classes.AdminProfileDropdown, classes.Show].join(" ");
+            } else {
+                this.dropdownClasses = [classes.ProfileDropdown, classes.Show].join(" ");
+            }
         } else {
             this.dropdownClasses = [classes.ProfileDropdown, classes.Hide].join(" ");
+        }
+
+        let arrowClasses = null;
+        if (this.props.isAdminViewLoaded) {
+            arrowClasses = classes.AdminArrowBox;
+        } else {
+            arrowClasses = classes.ArrowBox;
         }
 
        this.profileImg = <img src={this.props.profile.imgUrl} alt={"user profile"} className={classes.ProfileImg}/>;
@@ -31,7 +51,7 @@ class Profile extends Component{
             <div onClick={this.toggleProfileDropdown} className={classes.Container}>
                 {this.profileImg}
                 <div className={this.dropdownClasses}>
-                    <div className={classes.ArrowBox}/>
+                    <div className={arrowClasses}/>
                     <div className={classes.Profile}>
                         <img src={this.props.profile.imgUrl} alt={"profile"} className={classes.DropdownProfileImg}/>
                         <div className={classes.UserName}>
@@ -60,6 +80,12 @@ class Profile extends Component{
                                     Edit
                                 </td>
                             </tr>
+                            <tr onClick={this.toggleAdminView}>
+                                <td><Repeat size={16} strokeWidth={2}/></td>
+                                <td>
+                                    Switch User
+                                </td>
+                            </tr>
                             <tr>
                                 <td>
                                     <LogOut size={16} strokeWidth={2} />
@@ -81,8 +107,9 @@ class Profile extends Component{
 
 const mapStateToProps = (state) => {
     return {
-        profile: state.header.profileImgObj
+        profile: state.header.profileImgObj,
+        isAdminViewLoaded: state.layout.isAdminViewLoaded
     }
 };
 
-export default connect(mapStateToProps)(Profile)
+export default connect(mapStateToProps)(withRouter(Profile))

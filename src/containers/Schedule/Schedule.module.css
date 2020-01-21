@@ -1,3 +1,118 @@
 :local .Schedule{
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px;
+}
 
+:local .EventListDiv{
+    width: 27%;
+}
+
+:local .CalendarDetailDiv{
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #f2f4f9;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.2);
+}
+
+:local .CalendarHeader{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+:local .CalendarControl{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    border: 1px solid #4e5af2;
+    border-radius: 4px;
+}
+
+:local .CalendarChevron{
+    width: 35px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 3px;
+}
+
+:local .BrdRight{
+    border-right: 1px solid #4e5af2;
+}
+
+:local .BrdLeft{
+    border-left: 1px solid #4e5af2;
+}
+:local .CurrentDay{
+    font-family: overpass-Regular, sans-serif, serif;
+    font-size: 14px;
+    color: #4e5af2;
+}
+
+:local .CurrentCalendarDetail{
+    font-size: 26px;
+    color: #000000;
+    font-family: overpass-SemiBold, sans-serif, serif;
+}
+
+:local .ToggleCalendarView{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #4e5af2;
+    border-radius: 4px;
+    font-family: overpass-Regular, sans-serif, serif;
+    color: #4e5af2;
+    font-size: 14px;
+}
+
+:local .SelectedCalendarView{
+    background-color: #4e5af2;
+    color: #ffffff;
+}
+
+:local .ToggleCalendarView div{
+    padding: 3px;
+    width: 50px;
+    text-align: center;
+}
+
+:local .TabMenuHead{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+:local .TabMenu{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    border: 1px solid #4e5af2;
+    border-radius:4px;
+    font-family: overpass-Regular, sans-serif, serif;
+}
+
+:local .TabMenuOption{
+    padding: 4px 10px;
+    color: #4e5af2;
+    text-align: center;
+    cursor: pointer;
+}
+
+:local .SelectedTab{
+    background-color: #4e5af2;
+    color: #ffffff;
 }

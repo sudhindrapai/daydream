@@ -1,18 +1,51 @@
 import React, {Component} from 'react';
 import classes from './FixedLeftMenuBar.module.css';
 import {NavLink} from 'react-router-dom';
-import {Trello, Eye, Activity, Calendar, AlertCircle, Aperture} from "react-feather";
+import {Trello, Eye, Activity, Calendar, AlertCircle, Aperture, Box,Users} from "react-feather";
 import CrossBtn from '../ToggleCrossBtn/ToggleCrossBtn';
+
+import {connect} from 'react-redux';
 
 import Button from '../UI/Button/Button';
 
 class FixedLeftMenuBar extends Component{
     render() {
-        return(
+        if (this.props.isAdminViewLoaded) {
+            return(
+                <div className={classes.AdminContainer}>
+                    <div className={classes.AdminToggleSection}>
+                        <Button type={"button"} btnType={"Transparent"} clicked={this.props.clicked}>
+                            <CrossBtn isAdminViewLoaded={this.props.isAdminViewLoaded} isDefaultLoaded = {this.props.isLeftMenuVisible} />
+                        </Button>
+                    </div>
+                    <div className={classes.AdminLeftMenuSection}>
+                        <table>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <NavLink to={"/admin/dashboard"}>
+                                        <Box size={18} />
+                                    </NavLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <NavLink to={"/admin/clients/all"}>
+                                        <Users size={18}/>
+                                    </NavLink>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            )
+        } else {
+            return(
                 <div className={classes.Container}>
                     <div className={classes.ToggleSection}>
                         <Button type={"button"} btnType={"Transparent"} clicked={this.props.clicked}>
-                            <CrossBtn isDefaultLoaded = {this.props.isLeftMenuVisible} />
+                            <CrossBtn isAdminViewLoaded={this.props.isAdminViewLoaded} isDefaultLoaded = {this.props.isLeftMenuVisible} />
                         </Button>
                     </div>
                     <div className={classes.LeftMenuSection}>
@@ -28,7 +61,7 @@ class FixedLeftMenuBar extends Component{
                             <tr>
                                 <td>
                                     <NavLink to={"/analytics"}>
-                                    <Trello size={18}/>
+                                        <Trello size={18}/>
                                     </NavLink>
                                 </td>
                             </tr>
@@ -42,7 +75,7 @@ class FixedLeftMenuBar extends Component{
                             <tr>
                                 <td>
                                     <NavLink to={"/intraday"}>
-                                    <Activity size={18}/>
+                                        <Activity size={18}/>
                                     </NavLink>
                                 </td>
                             </tr>
@@ -64,8 +97,15 @@ class FixedLeftMenuBar extends Component{
                         </table>
                     </div>
                 </div>
-        )
+            )
+        }
     }
 }
 
-export default FixedLeftMenuBar;
+const mapStateToProps = (state) => {
+    return{
+        isAdminViewLoaded:state.layout.isAdminViewLoaded
+    }
+};
+
+export default connect(mapStateToProps)(FixedLeftMenuBar);

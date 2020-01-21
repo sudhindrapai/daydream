@@ -150,3 +150,42 @@
     font-size: 12px;
     color: #686868 !important;
 }
+
+:local .AdminNotificationDropdown{
+    position: absolute;
+    top: 38px;
+    right: -9px;
+    left: auto;
+    width: 250px;
+    max-width: 280px;
+    border: 1px solid #262f43;
+    z-index: 10;
+    background-color: #0B1327;
+}
+:local .AdminArrow{
+    content: '';
+    width: 13px;
+    height: 13px;
+    background: #0B1327;
+    position: absolute;
+    top: -7px;
+    right: 15px;
+    z-index: 1;
+    transform: rotate(45deg);
+    border-top: 1px solid #262f43;
+    border-left: 1px solid #262f43;
+}
+
+:local .AdminNotificationDropdown .TotalNotificationsCount{
+    color: #eef4ff;
+}
+:local .AdminNotificationDropdown .NotificationHeader{
+    border-bottom: 1px solid #262f43;
+}
+:local .AdminNotificationDropdown .NotificationFooter{
+    border-top: 1px solid #262f43;
+}
+:local .AdminNotificationDropdown .ClearAllBtnDiv,
+:local .AdminNotificationDropdown .NotificationTime{
+    color: #7886a1 !important;
+}

@@ -1,7 +1,14 @@
 import React, {Component} from 'react';
-import ComingSoon from '../../components/ComingSoon/ComingSoon'
+import ComingSoon from '../../components/ComingSoon/ComingSoon';
+
+import {connect} from 'react-redux';
+import * as action from '../../store/actions/index';
 
 class Planner extends Component{
+    componentDidMount() {
+        this.props.loadUserView();
+    }
+
     render() {
         return(
             <ComingSoon/>
@@ -9,4 +16,10 @@ class Planner extends Component{
     }
 }
 
-export default Planner
+const mapDispatchToProps = (dispatch) => {
+    return{
+        loadUserView: () => dispatch(action.changeAdminView(false))
+    }
+};
+
+export default connect(null,mapDispatchToProps)(Planner)

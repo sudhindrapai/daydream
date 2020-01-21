@@ -22,4 +22,26 @@ td.MenuItem:hover a{
 }
 
 
+:local .AdminMenuItem a{
+    font-family: overpass-Regular, sans-serif, Serif;
+    color: #ffffff;
+    text-decoration: none !important;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+td.AdminMenuItem{
+    position: relative;
+}
+
+td.AdminMenuItem a{
+    padding-bottom: 5px;
+    position: absolute;
+    top: 4px;
+    transition: 0.3s ease-in;
+}
+td.AdminMenuItem:hover a{
+    color: #727cf5 !important;
+}
 

@@ -33,6 +33,7 @@ class Analytics extends Component {
 
     componentDidMount() {
         this.props.getAnalyticsResponse(this.props.accountType, this.props.startDate, this.props.endDate);
+        this.props.loadUserView();
     }
 
     loadAnalyticsDetail = (id) => {
@@ -138,7 +139,8 @@ const mapDispatchToProps = (dispatch) => {
             (accountType, startDate, endDate) => {
                 dispatch(actions.getAnalyticsMetrics(accountType, startDate, endDate))
             },
-        toggleError: () => {dispatch(actions.toggleAnalyticsErrorView())}
+        toggleError: () => {dispatch(actions.toggleAnalyticsErrorView())},
+        loadUserView: () => dispatch(actions.changeAdminView(false))
     }
 };
 

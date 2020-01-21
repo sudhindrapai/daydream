@@ -1,0 +1,45 @@
+:local .Container{
+    margin: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #f2f4f9;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.2);
+}
+
+:local .TabMenu{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+}
+
+:local .TabMenu div{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: overpass-SemiBold, SansSerif, serif;
+}
+
+:local .SelectedTabMenu{
+    height: 100%;
+    font-family: overpass-SemiBold, SansSerif,serif;
+    color: #4e5af2;
+    border-bottom: 1px solid #4e5af2;
+    cursor: pointer;
+}
+
+:local .TabMenuItem{
+    border-bottom: 1px solid #cccccc;
+    font-family: overpass-Regular, SansSerif,serif;
+    height: 100%;
+    cursor: pointer;
+}
+
+:local .MenuDetail{
+    box-shadow: 0 5px 6px -3px #00000033, 0 3px 16px 2px #0000001e, 0 9px 12px 1px #00000023;
+}

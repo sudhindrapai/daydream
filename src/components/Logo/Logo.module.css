@@ -17,3 +17,11 @@
     color: #727cf5;
     font-weight: 300;
 }
+
+:local .Blue{
+    color: #031a61;
+}
+
+:local .White{
+    color: #eef4ff;
+}

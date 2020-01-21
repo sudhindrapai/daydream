@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {Bell, Eye} from "react-feather";
 import classes from './Notifications.module.css';
 
+import {connect} from 'react-redux';
+
 class Notification extends Component{
     state = {
         iconColor:"#535353",
@@ -32,25 +34,43 @@ class Notification extends Component{
     };
 
     changeToDefaultColor = () => {
-        this.setState({
-            iconColor: "#535353"
-        })
+        if (this.props.isAdminViewLoaded) {
+            this.setState({
+                iconColor: "#eef4ff"
+            })
+        } else {
+            this.setState({
+                iconColor: "#535353"
+            })
+        }
     };
 
     render() {
         let dropdownClasses = null;
         if(this.state.isDropdownVisible){
-            dropdownClasses = [classes.NotificationDropdown, classes.Show].join(" ")
+            if (this.props.isAdminViewLoaded) {
+                dropdownClasses = [classes.AdminNotificationDropdown, classes.Show].join(" ")
+            } else {
+                dropdownClasses = [classes.NotificationDropdown, classes.Show].join(" ")
+            }
         } else {
             dropdownClasses = [classes.NotificationDropdown, classes.Hide].join(" ");
         }
+
+        let arrowClasses = null;
+        if (this.props.isAdminViewLoaded) {
+            arrowClasses = classes.AdminArrow;
+        } else {
+            arrowClasses = classes.ArrowBox
+        }
+
         return(
             <div onMouseEnter={this.changeToThemeColor} onMouseLeave={this.changeToDefaultColor}
                  className={classes.Container} onClick={this.toggleDropdown}>
                 <span className={classes.Pulse} />
-                <Bell color={this.state.iconColor} size={22} />
+                <Bell color={this.props.isAdminViewLoaded ? '#eef4ff':'#535353'} size={22} />
                 <div className={dropdownClasses}>
-                    <div className={classes.ArrowBox} />
+                    <div className={arrowClasses} />
                     <div className={classes.NotificationHeader}>
                         <div className={classes.TotalNotificationsCount}>
                             {this.state.notificationsObj.count} New Notifications
@@ -84,9 +104,14 @@ class Notification extends Component{
                         <span onClick={this.viewAllNotificationsHandler}>View all</span>
                     </div>
                 </div>
-            </div>
-            )
+            </div>)
     }
 }
 
-export default Notification
+const mapStateToProps = (state) => {
+    return{
+        isAdminViewLoaded:state.layout.isAdminViewLoaded
+    }
+};
+
+export default connect(mapStateToProps)(Notification)

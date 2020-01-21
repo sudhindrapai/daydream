@@ -11,6 +11,7 @@ class Anomalies extends Component{
             this.props.getAnomaliesResponseData(this.props.accountType,graphMetric,index);
             return null;
         });
+        this.props.loadUserView()
     }
 
     render() {
@@ -47,7 +48,8 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
     return{
         getAnomaliesResponseData: (accountType,graphMetrics,arrayIndex) =>
-        {dispatch(actions.getAnomaliesData(accountType,graphMetrics,arrayIndex))}
+        {dispatch(actions.getAnomaliesData(accountType,graphMetrics,arrayIndex))},
+        loadUserView: () => dispatch(actions.changeAdminView(false))
     }
 };
 

@@ -1,0 +1,62 @@
+:local .Container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 0 30px 0 0;
+    border: 1px solid #f2f4f9;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.2);
+}
+
+:local .EventListHeader{
+    font-family: overpass-SemiBold, sans-serif, serif;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+:local .EventList{
+    width: 100%;
+}
+
+:local .Event{
+    display: block;
+    border-radius: 1px;
+    padding: 8px 5px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    border-left: 3px solid;
+    font-family: overpass-Regular, sans-serif, serif;
+}
+:local .Event1{
+    background-color: #ffe6ec;
+    border-color: #f36;
+}
+
+:local .Event2{
+    background-color: rgba(16,183,89, .25);
+    border-color: #10b759;
+}
+
+:local .Event3{
+    background-color: rgba(91,71,251,.2);
+    border-color: #5b47fb;
+}
+
+:local .Event4{
+    background-color: rgba(253,126,20,.25);
+    border-color: #fd7e14;
+}
+
+:local .Event5{
+    background-color: rgba(1,104,250, .15);
+    border-color: #0168fa;
+}
+:local .Event6{
+    background-color: rgba(241,0,117,.25);
+    border-color: #f10075;
+}

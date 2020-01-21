@@ -1,0 +1,23 @@
+:local .Container{
+    width: 100%;
+    box-sizing: border-box;
+}
+:local .FormContainer{
+    margin: 30px auto;
+    border: 1px solid #262f43;
+    background-color: #0c1427;
+    padding: 30px 50px;
+    width: 50%;
+}
+
+
+:local .FormTitle{
+    font-size: 18px;
+    color: #f9fafb;
+    font-family: overpass-Regular,SansSerif,serif;
+    margin-bottom: 15px;
+}
+
+:local .FormContainer div{
+    margin-bottom: 10px;
+}

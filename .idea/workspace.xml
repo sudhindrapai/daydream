@@ -3,16 +3,47 @@
   <component name="ChangeListManager">
     <list default="true" id="3b94943d-f392-4adc-8c22-352792301ecd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Graph/Graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ApexGraph/Graph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileHeader/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileHeader/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileHeader/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileHeader/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleButton/Toggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleButton/Toggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleButton/Toggle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleButton/Toggle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Analytics/Analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Analytics/Analytics.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Planner/Planner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Planner/Planne.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/analytics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Forecast/Forecasting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Forecast/Forecasting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Planner/Planner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Planner/Planner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Realtime/Realtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Realtime/Realtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Schedule/Schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Schedule/Schedule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Schedule/Schedule.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Schedule/Schedule.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/endpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/http/endpoints.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,47 +57,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/actions/analytics.js">
+        <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1638">
-              <caret line="138" selection-start-line="138" selection-end-line="138" />
+            <state relative-caret-position="2280">
+              <caret line="155" column="53" selection-start-line="155" selection-start-column="53" selection-end-line="155" selection-end-column="53" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/actions/anomalies.js">
+        <entry file="file://$PROJECT_DIR$/src/components/UI/Input/Input.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="4548" column="14" selection-start-line="4548" selection-start-column="14" selection-end-line="4548" selection-end-column="14" />
+            <state relative-caret-position="405">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="48" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#153#137752#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/actions/forecast.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1352">
-              <caret line="209" column="17" selection-start-line="206" selection-start-column="16" selection-end-line="209" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/store/reducers/header.js">
+        <entry file="file://$PROJECT_DIR$/src/components/UI/Input/Input.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="117">
+              <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -83,24 +101,42 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>:local.</find>
-      <find>:local</find>
-      <find>hover</find>
-      <find>13</find>
-      <find>border</find>
-      <find>.</find>
-      <find>apex</find>
-      <find>status</find>
-      <find>cons</find>
-      <find>UPDATE_FORECAST_ARRAY</find>
-      <find>console</find>
-      <find>conso</find>
-      <find>data</find>
+      <find>AgentDetailContainer</find>
+      <find>80</find>
+      <find>DateRangePicker</find>
+      <find>container</find>
+      <find>UploadValuesContainer</find>
+      <find>selected</find>
+      <find>SelectedUploadFormat</find>
+      <find>axios</find>
+      <find>40</find>
+      <find>UploadOption</find>
+      <find>UploadFromContainerUrl</find>
+      <find>show</find>
+      <find>isValidFileName</find>
+      <find>isAvailOptionVisible</find>
+      <find>csvFileHeader</find>
+      <find>uploadedFileHeaders</find>
+      <find>InputDiv</find>
+      <find>RefreshDiv</find>
+      <find>CLEAR_GET_SHEET_NAME_MESSAGE</find>
+      <find>NoteSection</find>
+      <find>SheetNameDiv</find>
+      <find>MoveToNextDiv</find>
+      <find>sheetName</find>
+      <find>UPDATE_GET_SHEET_NAME_MESSAGE</find>
+      <find>”</find>
+      <find>Contents</find>
+      <find>iconColor</find>
+      <find>HeaderDiv</find>
+      <find>AdminInputElement</find>
+      <find>key</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
       <replace>:local</replace>
       <replace>:local .</replace>
+      <replace>'</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -109,57 +145,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/FixedLeftMenuBar/tempGraph/TempGraph.js" />
-        <option value="$PROJECT_DIR$/src/components/TempGraph/TempGraph.js" />
-        <option value="$PROJECT_DIR$/src/containers/Planner/Planner.css" />
-        <option value="$PROJECT_DIR$/src/containers/Planner/Planner.js" />
+        <option value="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.module.css" />
         <option value="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.js" />
-        <option value="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.css" />
-        <option value="$PROJECT_DIR$/src/components/UI/Button/Button.css" />
-        <option value="$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.module.css" />
-        <option value="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.module.css" />
-        <option value="$PROJECT_DIR$/src/components/ForecastGraph/Forecast.css" />
-        <option value="$PROJECT_DIR$/src/components/ForecastGraph/Forecast.module.css" />
-        <option value="$PROJECT_DIR$/src/containers/Forecast/Forecasting.module.css" />
-        <option value="$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.module.css" />
-        <option value="$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.js" />
-        <option value="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.js" />
-        <option value="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js" />
-        <option value="$PROJECT_DIR$/src/store/actions/index.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/store/actions/actionTypes.js" />
-        <option value="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.module.css" />
-        <option value="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.css" />
-        <option value="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.module.css" />
-        <option value="$PROJECT_DIR$/src/http/endpoints.js" />
-        <option value="$PROJECT_DIR$/src/components/DateRangePicker/DateRangePicker.js" />
-        <option value="$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.css" />
-        <option value="$PROJECT_DIR$/src/hoc/Layout/Layout.module.css" />
-        <option value="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.module.css" />
-        <option value="$PROJECT_DIR$/src/store/reducers/anomalies.js" />
-        <option value="$PROJECT_DIR$/src/store/reducers/forecast.js" />
-        <option value="$PROJECT_DIR$/src/containers/Forecast/Forecasting.js" />
-        <option value="$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.js" />
+        <option value="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.module.css" />
         <option value="$PROJECT_DIR$/src/hoc/Layout/Layout.js" />
-        <option value="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js" />
+        <option value="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.js" />
+        <option value="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.module.css" />
+        <option value="$PROJECT_DIR$/src/containers/Dashboard/Dashboard.js" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Dashboard/Dashboard.js" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Dashboard/Dashboard.module.css" />
         <option value="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/ProfileHeader/Profile.js" />
+        <option value="$PROJECT_DIR$/src/components/ProfileHeader/Profile.module.css" />
+        <option value="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.module.css" />
+        <option value="$PROJECT_DIR$/src/hoc/Layout/Layout.module.css" />
+        <option value="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.module.css" />
+        <option value="$PROJECT_DIR$/src/components/IntegrationFileImport/FileImport.js" />
+        <option value="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.module.css" />
+        <option value="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.js" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Forms/Forms.module.css" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Forms/Forms.js" />
+        <option value="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.js" />
+        <option value="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.module.css" />
+        <option value="$PROJECT_DIR$/src/store/actions/actionTypes.js" />
+        <option value="$PROJECT_DIR$/src/http/endpoints.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/clients.js" />
+        <option value="$PROJECT_DIR$/src/store/reducers/client.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/index.js" />
+        <option value="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail.js" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetai.modue.css" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetai.modue.css" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetails.module..css" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Onboarding/Onboarding.js" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.module.css" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetai.module.css" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetails.module.css" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Forms/LocationDetail/LocationDetail.module.css" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Onboarding/Onboarding.module.css" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Client/Client.module.css" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Client/Client.js" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetail.js" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.js" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Forms/LocationDetail/LocationDetail.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
-        <option value="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/Button/Button.js" />
-        <option value="$PROJECT_DIR$/src/components/Table/Table.js" />
-        <option value="$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css" />
-        <option value="$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.js" />
-        <option value="$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.module.css" />
-        <option value="$PROJECT_DIR$/src/containers/Analytics/Analytics.js" />
-        <option value="$PROJECT_DIR$/src/components/Table/Table.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Graph/Graph.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/components/ApexGraph/Graph.js" />
-        <option value="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.js" />
-        <option value="$PROJECT_DIR$/src/store/actions/analytics.js" />
-        <option value="$PROJECT_DIR$/src/store/actions/anomalies.js" />
-        <option value="$PROJECT_DIR$/src/store/actions/forecast.js" />
+        <option value="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/header.js" />
+        <option value="$PROJECT_DIR$/src/components/UI/Input/Input.js" />
+        <option value="$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetail.js" />
+        <option value="$PROJECT_DIR$/src/components/UI/Input/Input.module.css" />
       </list>
     </option>
   </component>
@@ -200,191 +236,6 @@
               <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="AnomaliesGraph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ApexGraph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="CardWithChart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ComingSoon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ContainerTitle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="DateRangePicker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="DaysSelector" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ErrorAlert" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="FixedLeftMenuBar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ForecastGraph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="HeaderMenu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="LeftMenu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="LeftMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="MenuItem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Logo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="NotificationsHeader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="PlotlyGraph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ProfileHeader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Spinner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Table" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ToggleButton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ToggleCrossBtn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="Button" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="ButtonDropdown" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="Tooltip" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -392,82 +243,24 @@
               <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="AnalyticsDetail" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Forms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Anomalies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Forecast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Planner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Realtime" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Schedule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hoc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hoc" type="462c0819:PsiDirectoryNode" />
-              <item name="Layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Forms" type="462c0819:PsiDirectoryNode" />
+              <item name="LicenseDetails" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -488,17 +281,21 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail" />
+      <recent name="$PROJECT_DIR$/src/containers/Admin" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/UI" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/hoc" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/components/UI" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -761,16 +558,290 @@
       <workItem from="1573214028123" duration="1364000" />
       <workItem from="1573216257294" duration="787000" />
       <workItem from="1573273164370" duration="413000" />
+      <workItem from="1573366313479" duration="654000" />
+      <workItem from="1573444666480" duration="72000" />
+      <workItem from="1573446641156" duration="1485000" />
+      <workItem from="1573448902249" duration="193000" />
+      <workItem from="1573463659991" duration="233000" />
+      <workItem from="1573472167757" duration="890000" />
+      <workItem from="1573474028562" duration="607000" />
+      <workItem from="1573475843336" duration="1541000" />
+      <workItem from="1573490500885" duration="158000" />
+      <workItem from="1573527099443" duration="972000" />
+      <workItem from="1573554165344" duration="543000" />
+      <workItem from="1573555820784" duration="167000" />
+      <workItem from="1573556013819" duration="1199000" />
+      <workItem from="1573557829979" duration="599000" />
+      <workItem from="1573559642225" duration="598000" />
+      <workItem from="1573562489408" duration="576000" />
+      <workItem from="1573564299096" duration="951000" />
+      <workItem from="1573566141815" duration="1758000" />
+      <workItem from="1573567952436" duration="98000" />
+      <workItem from="1573578219905" duration="1191000" />
+      <workItem from="1573579433970" duration="1108000" />
+      <workItem from="1573608463398" duration="1069000" />
+      <workItem from="1573614767465" duration="870000" />
+      <workItem from="1573620832625" duration="20000" />
+      <workItem from="1573635063762" duration="214000" />
+      <workItem from="1573639385039" duration="130000" />
+      <workItem from="1573641931684" duration="166000" />
+      <workItem from="1573642123027" duration="710000" />
+      <workItem from="1573643934342" duration="404000" />
+      <workItem from="1573648736863" duration="937000" />
+      <workItem from="1573649875228" duration="1683000" />
+      <workItem from="1573651687120" duration="1721000" />
+      <workItem from="1573653509199" duration="372000" />
+      <workItem from="1573659613968" duration="230000" />
+      <workItem from="1573661436004" duration="1189000" />
+      <workItem from="1573663541025" duration="527000" />
+      <workItem from="1573692812232" duration="491000" />
+      <workItem from="1573696011639" duration="1529000" />
+      <workItem from="1573699918300" duration="909000" />
+      <workItem from="1573703254512" duration="77000" />
+      <workItem from="1573708646562" duration="62000" />
+      <workItem from="1573708734790" duration="1452000" />
+      <workItem from="1573710547596" duration="576000" />
+      <workItem from="1573712398089" duration="475000" />
+      <workItem from="1573714256851" duration="598000" />
+      <workItem from="1573716068070" duration="594000" />
+      <workItem from="1573720394765" duration="1205000" />
+      <workItem from="1573722304258" duration="1338000" />
+      <workItem from="1573724118008" duration="1735000" />
+      <workItem from="1573725937737" duration="755000" />
+      <workItem from="1573733729364" duration="1342000" />
+      <workItem from="1573735524587" duration="1642000" />
+      <workItem from="1573737339060" duration="1725000" />
+      <workItem from="1573739166838" duration="1382000" />
+      <workItem from="1573745657305" duration="1626000" />
+      <workItem from="1573747507024" duration="1019000" />
+      <workItem from="1573779294882" duration="1794000" />
+      <workItem from="1573781142436" duration="1808000" />
+      <workItem from="1573789483142" duration="1356000" />
+      <workItem from="1573791311311" duration="748000" />
+      <workItem from="1573809512740" duration="1326000" />
+      <workItem from="1573811041018" duration="596000" />
+      <workItem from="1573812854495" duration="1449000" />
+      <workItem from="1573814673491" duration="1780000" />
+      <workItem from="1573816488640" duration="1700000" />
+      <workItem from="1573818310445" duration="1587000" />
+      <workItem from="1573820155863" duration="1639000" />
+      <workItem from="1573821974166" duration="1746000" />
+      <workItem from="1573823792205" duration="1322000" />
+      <workItem from="1573825601808" duration="1584000" />
+      <workItem from="1573834710196" duration="1232000" />
+      <workItem from="1573875837293" duration="438000" />
+      <workItem from="1573900938032" duration="1783000" />
+      <workItem from="1573903161821" duration="900000" />
+      <workItem from="1573914069012" duration="1716000" />
+      <workItem from="1573918792206" duration="1445000" />
+      <workItem from="1573921143926" duration="1089000" />
+      <workItem from="1573923178292" duration="958000" />
+      <workItem from="1573958315098" duration="902000" />
+      <workItem from="1573960122536" duration="748000" />
+      <workItem from="1573970128807" duration="942000" />
+      <workItem from="1573976321302" duration="1632000" />
+      <workItem from="1573978133166" duration="1012000" />
+      <workItem from="1573980340696" duration="881000" />
+      <workItem from="1573983040098" duration="1012000" />
+      <workItem from="1573996760361" duration="623000" />
+      <workItem from="1574000922554" duration="157000" />
+      <workItem from="1574006082128" duration="574000" />
+      <workItem from="1574049083654" duration="112000" />
+      <workItem from="1574081059626" duration="519000" />
+      <workItem from="1574082014356" duration="943000" />
+      <workItem from="1574083831890" duration="1649000" />
+      <workItem from="1574085640730" duration="251000" />
+      <workItem from="1574097621540" duration="13000" />
+      <workItem from="1574156099402" duration="54000" />
+      <workItem from="1574156179933" duration="314000" />
+      <workItem from="1574164193123" duration="240000" />
+      <workItem from="1574166777633" duration="1069000" />
+      <workItem from="1574167890788" duration="1123000" />
+      <workItem from="1574169701579" duration="1604000" />
+      <workItem from="1574171513087" duration="1702000" />
+      <workItem from="1574179158659" duration="678000" />
+      <workItem from="1574220645259" duration="181000" />
+      <workItem from="1574252171170" duration="1760000" />
+      <workItem from="1574254227900" duration="1716000" />
+      <workItem from="1574307342316" duration="5000" />
+      <workItem from="1574343038176" duration="975000" />
+      <workItem from="1574344074715" duration="1103000" />
+      <workItem from="1574395628047" duration="79000" />
+      <workItem from="1574429724028" duration="228000" />
+      <workItem from="1574430114305" duration="1608000" />
+      <workItem from="1574431926690" duration="140000" />
+      <workItem from="1574481675812" duration="5000" />
+      <workItem from="1574501818458" duration="617000" />
+      <workItem from="1574567814076" duration="1305000" />
+      <workItem from="1574570074805" duration="1150000" />
+      <workItem from="1574574017974" duration="111000" />
+      <workItem from="1574653904692" duration="4000" />
+      <workItem from="1574686229055" duration="1076000" />
+      <workItem from="1574688185562" duration="1077000" />
+      <workItem from="1574690481860" duration="1272000" />
+      <workItem from="1574692307814" duration="103000" />
+      <workItem from="1574774089914" duration="1270000" />
+      <workItem from="1574775900176" duration="186000" />
+      <workItem from="1574788298729" duration="4000" />
+      <workItem from="1574860610397" duration="733000" />
+      <workItem from="1574862198955" duration="1538000" />
+      <workItem from="1574914067426" duration="5000" />
+      <workItem from="1574946789010" duration="9000" />
+      <workItem from="1574946802219" duration="479000" />
+      <workItem from="1574947303670" duration="1439000" />
+      <workItem from="1574954519026" duration="64000" />
+      <workItem from="1574991004973" duration="896000" />
+      <workItem from="1574999933851" duration="272000" />
+      <workItem from="1575027899960" duration="1446000" />
+      <workItem from="1575029641028" duration="1490000" />
+      <workItem from="1575031507126" duration="1411000" />
+      <workItem from="1575033317816" duration="1304000" />
+      <workItem from="1575035130869" duration="1311000" />
+      <workItem from="1575085337957" duration="5000" />
+      <workItem from="1575374157113" duration="460000" />
+      <workItem from="1575375886951" duration="1644000" />
+      <workItem from="1575377704529" duration="1767000" />
+      <workItem from="1575379528936" duration="1221000" />
+      <workItem from="1575381365454" duration="173000" />
+      <workItem from="1575430685182" duration="1790000" />
+      <workItem from="1575432497867" duration="386000" />
+      <workItem from="1575462920217" duration="674000" />
+      <workItem from="1575464015204" duration="2126000" />
+      <workItem from="1575466282886" duration="1402000" />
+      <workItem from="1575528239057" duration="163000" />
+      <workItem from="1575536249420" duration="134000" />
+      <workItem from="1575544572573" duration="5000" />
+      <workItem from="1575551639603" duration="1563000" />
+      <workItem from="1575553496867" duration="1353000" />
+      <workItem from="1575606136832" duration="11000" />
+      <workItem from="1575634120749" duration="1670000" />
+      <workItem from="1575635926070" duration="1247000" />
+      <workItem from="1575637740678" duration="1789000" />
+      <workItem from="1575639569884" duration="1290000" />
+      <workItem from="1575641553816" duration="755000" />
+      <workItem from="1575699900077" duration="1758000" />
+      <workItem from="1575701778126" duration="445000" />
+      <workItem from="1575705130214" duration="11000" />
+      <workItem from="1575717334548" duration="216000" />
+      <workItem from="1575942497154" duration="801000" />
+      <workItem from="1575976769409" duration="1762000" />
+      <workItem from="1575978556741" duration="1388000" />
+      <workItem from="1575980382857" duration="1588000" />
+      <workItem from="1575982207221" duration="679000" />
+      <workItem from="1575984509257" duration="1425000" />
+      <workItem from="1575986323706" duration="1045000" />
+      <workItem from="1576037239381" duration="17000" />
+      <workItem from="1576063570143" duration="1380000" />
+      <workItem from="1576065362614" duration="1550000" />
+      <workItem from="1576067170873" duration="1569000" />
+      <workItem from="1576068990646" duration="1489000" />
+      <workItem from="1576070811761" duration="989000" />
+      <workItem from="1576072628309" duration="403000" />
+      <workItem from="1576134511553" duration="836000" />
+      <workItem from="1576135659373" duration="715000" />
+      <workItem from="1576140416165" duration="1006000" />
+      <workItem from="1576142228487" duration="566000" />
+      <workItem from="1576153995059" duration="1026000" />
+      <workItem from="1576155375439" duration="1723000" />
+      <workItem from="1576157197322" duration="1597000" />
+      <workItem from="1576159021817" duration="1167000" />
+      <workItem from="1576209197265" duration="4000" />
+      <workItem from="1576314241199" duration="1716000" />
+      <workItem from="1576316043374" duration="1386000" />
+      <workItem from="1577091329071" duration="4000" />
+      <workItem from="1577191215847" duration="1655000" />
+      <workItem from="1577192985605" duration="1446000" />
+      <workItem from="1577194798068" duration="1276000" />
+      <workItem from="1577246739858" duration="815000" />
+      <workItem from="1577331553819" duration="11000" />
+      <workItem from="1577364901482" duration="798000" />
+      <workItem from="1577366932410" duration="957000" />
+      <workItem from="1577374442851" duration="598000" />
+      <workItem from="1577420194865" duration="562000" />
+      <workItem from="1577427060693" duration="6000" />
+      <workItem from="1577450266446" duration="219000" />
+      <workItem from="1577450511078" duration="1424000" />
+      <workItem from="1577452318908" duration="1754000" />
+      <workItem from="1577454131988" duration="1476000" />
+      <workItem from="1577504434291" duration="377000" />
+      <workItem from="1577541457693" duration="215000" />
+      <workItem from="1577547817682" duration="1663000" />
+      <workItem from="1577549660717" duration="1378000" />
+      <workItem from="1577590254804" duration="1219000" />
+      <workItem from="1577594376194" duration="1627000" />
+      <workItem from="1577596209249" duration="276000" />
+      <workItem from="1577600539719" duration="1489000" />
+      <workItem from="1577607804445" duration="1764000" />
+      <workItem from="1577609614311" duration="1023000" />
+      <workItem from="1577682034063" duration="358000" />
+      <workItem from="1577685225547" duration="401000" />
+      <workItem from="1577685728237" duration="1634000" />
+      <workItem from="1577687542182" duration="779000" />
+      <workItem from="1577689386107" duration="540000" />
+      <workItem from="1577691237950" duration="574000" />
+      <workItem from="1577695109082" duration="598000" />
+      <workItem from="1577696951707" duration="598000" />
+      <workItem from="1577698762408" duration="594000" />
+      <workItem from="1577700574143" duration="999000" />
+      <workItem from="1577702405303" duration="599000" />
+      <workItem from="1577704271286" duration="564000" />
+      <workItem from="1577706081980" duration="597000" />
+      <workItem from="1577708238139" duration="389000" />
+      <workItem from="1577709492951" duration="887000" />
+      <workItem from="1577711307651" duration="1715000" />
+      <workItem from="1577713129347" duration="1019000" />
+      <workItem from="1577765754078" duration="346000" />
+      <workItem from="1577788846526" duration="33000" />
+      <workItem from="1577883508384" duration="875000" />
+      <workItem from="1577885214534" duration="248000" />
+      <workItem from="1578111831738" duration="90000" />
+      <workItem from="1578805770965" duration="1123000" />
+      <workItem from="1578807177172" duration="858000" />
+      <workItem from="1578809268632" duration="1719000" />
+      <workItem from="1578811250319" duration="398000" />
+      <workItem from="1578814012427" duration="1346000" />
+      <workItem from="1578815859006" duration="807000" />
+      <workItem from="1578817684612" duration="1233000" />
+      <workItem from="1578819531154" duration="988000" />
+      <workItem from="1578923207206" duration="1778000" />
+      <workItem from="1578975063016" duration="24000" />
+      <workItem from="1579056027812" duration="202000" />
+      <workItem from="1579063830558" duration="1779000" />
+      <workItem from="1579066374564" duration="628000" />
+      <workItem from="1579074929705" duration="1734000" />
+      <workItem from="1579087441396" duration="1677000" />
+      <workItem from="1579089259575" duration="836000" />
+      <workItem from="1579146911017" duration="48000" />
+      <workItem from="1579181378493" duration="1300000" />
+      <workItem from="1579183131388" duration="1087000" />
+      <workItem from="1579187265195" duration="1746000" />
+      <workItem from="1579189077517" duration="227000" />
+      <workItem from="1579232919452" duration="96000" />
+      <workItem from="1579243196134" duration="222000" />
+      <workItem from="1579243445524" duration="86000" />
+      <workItem from="1579259989014" duration="399000" />
+      <workItem from="1579260423185" duration="1755000" />
+      <workItem from="1579262253105" duration="780000" />
+      <workItem from="1579264575699" duration="661000" />
+      <workItem from="1579267647925" duration="902000" />
+      <workItem from="1579269878430" duration="231000" />
+      <workItem from="1579318883459" duration="143000" />
+      <workItem from="1579439293902" duration="1754000" />
+      <workItem from="1579441082461" duration="1756000" />
+      <workItem from="1579442898754" duration="2167000" />
+      <workItem from="1579445803647" duration="1689000" />
+      <workItem from="1579447616696" duration="980000" />
+      <workItem from="1579491855359" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260218000" />
+    <option name="totallyTimeSpent" value="509225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2239873" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1556791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -784,7 +855,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28854313" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29278642" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -834,74 +906,226 @@
     </option>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/DaysSelector/DaysSelector.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/IntegraationConfiguration/IntegrationConfiguration.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/IntegrationFileImport/FileImport.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/IntegrationMapping/IntegrationMapping.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Logo/Logo.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1458">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
+        <state relative-caret-position="-2015" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ProfileHeader/Profile.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-888">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
+        <state relative-caret-position="-1950" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProfileHeader/Profile.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectMode/ProjectMode.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Spinner/Spinner.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-        </state>
+        <state relative-caret-position="-315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Table/Table.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ToggleButton/Toggle.module.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.module.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+        <state relative-caret-position="-525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/SelectDropdown/SelectDropdown.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/UI/Tooltip/Tooltip.module.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Clients/Client.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="60">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/header.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Dashboard/Dashboard.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetails.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/LocationDetail/LocationDetail.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Onboarding/Onboarding.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Anomalies/Anomalies.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Forecast/Forecasting.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Planner/Planner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/Planner/Planne.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Realtime/Realtime.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Schedule/Schedule.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        <state relative-caret-position="-1410" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hoc/Layout/Layout.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Integration/Integration.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetai.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Dashboard/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -910,335 +1134,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Anomalies/Anomalies.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" lean-forward="true" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Forecast/Forecasting.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/http/endpoints.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DateRangePicker/DateRangePicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hoc/Layout/Layout.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/forecast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.css" />
-    <entry file="file://$PROJECT_DIR$/src/containers/Forecast/Forecasting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="80" column="10" selection-start-line="76" selection-start-column="8" selection-end-line="80" selection-end-column="10" />
+        <state relative-caret-position="240">
+          <caret line="21" column="93" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hoc/Layout/Layout.js">
+    <entry file="file://$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="360">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Clients/Clients.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#253#289#0" expanded="true" />
-            <element signature="e#424#482#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/actionTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/Table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="120" column="39" lean-forward="true" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
+        <state relative-caret-position="75">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="15" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/analytics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/anomalies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Analytics/Analytics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="107" column="41" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/Table.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ApexGraph/Graph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/analytics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1638">
-          <caret line="138" selection-start-line="138" selection-end-line="138" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/anomalies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="4548" column="14" selection-start-line="4548" selection-start-column="14" selection-end-line="4548" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#153#137752#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/forecast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1352">
-          <caret line="209" column="17" selection-start-line="206" selection-start-column="16" selection-end-line="209" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store/reducers/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="45">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/LocationDetail/LocationDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="155" column="53" selection-start-line="155" selection-start-column="53" selection-end-line="155" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Input/Input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Input/Input.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
         </state>
       </provider>
     </entry>

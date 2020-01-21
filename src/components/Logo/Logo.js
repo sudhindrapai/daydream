@@ -1,15 +1,32 @@
-import React from 'react';
+import React, {Component} from 'react';
 import classes from './Logo.module.css';
+
 import {NavLink} from "react-router-dom";
 
-const Logo = () => {
-  return(
-   <div className={classes.Logo}>
-       <NavLink to={"/"} >
-           Day<span className={classes.ColBlue}>Dream</span>
-       </NavLink>
-   </div>
-  );
-};
+import {connect} from 'react-redux';
 
-export default Logo;
+class Logo extends Component{
+    logoClass = classes.White;
+
+    render(){
+        if (this.props.isAdminViewIsLoaded) {
+            this.logoClass = classes.White
+        } else {
+            this.logoClass = classes.Blue
+        }
+    return(
+        <div className={classes.Logo}>
+            <NavLink to={"/"} >
+                <span className={this.logoClass}>Day</span><span className={classes.ColBlue}>Dream</span>
+            </NavLink>
+        </div>
+    );
+}
+}
+
+const mapStateToProps = (state) => {
+    return{
+        isAdminViewIsLoaded:state.layout.isAdminViewLoaded
+    }
+};
+export default connect(mapStateToProps)(Logo);

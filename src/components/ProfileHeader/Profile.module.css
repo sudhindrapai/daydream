@@ -113,3 +113,42 @@
 :local .Logout:hover{
     color: #4E5AF2;
 }
+
+:local .AdminProfileDropdown{
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    max-height: 320px;
+    width: 220px;
+    background-color: #0B1327;
+    border: 1px solid #262f43;
+    z-index: 3;
+    padding: 15px;
+}
+
+:local .AdminArrowBox{
+    content: '';
+    width: 13px;
+    height: 13px;
+    background: #0B1327;
+    position: absolute;
+    top: -7px;
+    right: 15px;
+    z-index: 5;
+    transform: rotate(45deg);
+    border-top: 1px solid #262f43;
+    border-left: 1px solid #262f43;
+}
+
+:local .AdminProfileDropdown .Profile{
+    border-bottom: 1px solid #262f43;
+}
+:local .AdminProfileDropdown .ProfileOptions{
+    color: #7886a1;
+}
+:local .AdminProfileDropdown .Logout{
+    color: #7886a1;
+}
+:local .AdminProfileDropdown .UserEmail{
+    color: #7886a1;
+}

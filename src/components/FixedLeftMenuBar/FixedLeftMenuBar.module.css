@@ -39,3 +39,46 @@
 :local .LeftMenuSection tr td:hover a{
     color: #4e5af2;
 }
+
+
+:local .AdminContainer{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-right: 1px solid #262f43;
+    z-index: 98;
+    width: 70px;
+    background-color: #0B1327;
+}
+
+:local .AdminToggleSection{
+    height: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #262f43;
+}
+
+:local .AdminLeftMenuSection{
+    margin-top: 33px;
+}
+
+:local .AdminLeftMenuSection table{
+    width: 100%;
+}
+
+:local .AdminLeftMenuSection tr td{
+    padding: 8px;
+    text-align: center;
+}
+
+:local .AdminLeftMenuSection tr td a{
+    color: #eef4ff;
+    transition: 0.5s;
+}
+
+:local .AdminLeftMenuSection tr td:hover a{
+    color: #4e5af2;
+}

@@ -15,6 +15,7 @@ class Forecasting extends Component{
             this.props.getForeCastFutureResponse(this.props.daysCount,this.props.accountType,graphMetrics,index);
             return null
         });
+        this.props.loadUserView();
     }
 
     updateSelectedDaysCount = (daysCount) => {
@@ -79,7 +80,8 @@ const matDispatchToProps = (dispatch) => {
         getForeCastFutureResponse:(daysCount, accountType, graphMetric,arrayIndex) => {
             dispatch(actions.getForecastFutureResponse(daysCount,accountType,graphMetric,arrayIndex));
         },
-        updateDaysCount:(daysCount) => {dispatch(actions.setForecastDaysCount(daysCount))}
+        updateDaysCount:(daysCount) => {dispatch(actions.setForecastDaysCount(daysCount))},
+        loadUserView: () => dispatch(actions.changeAdminView(false))
     }
 };
 

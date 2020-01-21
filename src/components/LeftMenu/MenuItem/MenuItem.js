@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
-import {Trello,Eye,Activity,Calendar,AlertCircle,Aperture} from "react-feather";
+import {Trello,Eye,Activity,Calendar,AlertCircle,Aperture, PlusSquare,Box,Users} from "react-feather";
 
 import classes from './MenuItem.module.css'
 
@@ -18,13 +18,26 @@ const MenuItem = (props) => {
         icon =<AlertCircle size={18}/>
     } else if (props.icon === "aperture") {
             icon = <Aperture size={18} />
+    } else if (props.icon === "plusSquare") {
+                icon = <PlusSquare size={18} />
+    } else if (props.icon === "box"){
+                    icon = <Box size={18} />
+    } else if (props.icon === "users") {
+        icon= <Users size={18} />
     }
+
+    let menuItemClasses = null;
+                    if(props.isAdminMenuItem) {
+                        menuItemClasses = classes.AdminMenuItem;
+                    } else {
+                        menuItemClasses = classes.MenuItem;
+                    }
     return (
         <tr>
             <td>
                 {icon}
             </td>
-            <td className={classes.MenuItem}>
+            <td className={menuItemClasses}>
                 <NavLink activeClassName={["selectedOption"].join(" ")} to={props.link}>{props.children}</NavLink>
             </td>
         </tr>
