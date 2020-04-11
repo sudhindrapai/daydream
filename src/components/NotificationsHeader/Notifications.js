@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Bell, Eye} from "react-feather";
-import classes from './Notifications.module.css';
+import classes from './Notifications.css';
 
 import {connect} from 'react-redux';
 

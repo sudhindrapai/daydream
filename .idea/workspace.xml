@@ -3,47 +3,99 @@
   <component name="ChangeListManager">
     <list default="true" id="3b94943d-f392-4adc-8c22-352792301ecd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AgentList/Agents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AgentList/Agents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AgentList/Agents.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AgentList/Agents.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Calendar/Calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Calendar/Calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Calendar/Calendar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Calendar/Calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Calendar/EventList/EventList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Calendar/EventList/EventList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Calendar/EventList/EventList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Calendar/EventList/EventList.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DateRangePicker/DateRangePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DateRangePicker/DateRangePicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DateRangePicker/DateRangePicker.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DateRangePicker/DateRangePicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DaysSelector/DaysSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DaysSelector/DaysSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DaysSelector/DaysSelector.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DaysSelector/DaysSelector.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IntegraationConfiguration/IntegrationConfiguration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IntegraationConfiguration/IntegrationConfiguration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IntegraationConfiguration/IntegrationConfiguration.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IntegraationConfiguration/IntegrationConfiguration.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IntegrationFileImport/FileImport.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IntegrationFileImport/FileImport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IntegrationFileImport/FileImport.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IntegrationFileImport/FileImport.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IntegrationMapping/IntegrationMapping.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IntegrationMapping/IntegrationMapping.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IntegrationMapping/IntegrationMapping.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IntegrationMapping/IntegrationMapping.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlotlyGraph/PlotlyGraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProfileHeader/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileHeader/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfileHeader/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileHeader/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileHeader/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileHeader/Profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectMode/ProjectMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectMode/ProjectMode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectMode/ProjectMode.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectMode/ProjectMode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Spinner/Spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Spinner/Spinner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ToggleButton/Toggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleButton/Toggle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToggleButton/Toggle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleButton/Toggle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleButton/Toggle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleButton/Toggle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Input/Input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/SelectDropdown/SelectDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SelectDropdown/SelectDropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/SelectDropdown/SelectDropdown.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SelectDropdown/SelectDropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Tooltip/Tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Tooltip/Tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Tooltip/Tooltip.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Tooltip/Tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Clients/Client.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Clients/Client.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Clients/Clients.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Clients/Clients.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Dashboard/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Dashboard/Dashboard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Dashboard/Dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetai.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetai.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetails.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetails.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/LocationDetail/LocationDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/LocationDetail/LocationDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/LocationDetail/LocationDetail.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/LocationDetail/LocationDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Onboarding/Onboarding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Onboarding/Onboarding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Onboarding/Onboarding.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Onboarding/Onboarding.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Analytics/Analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Analytics/Analytics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Analytics/Analytics.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Forecast/Forecasting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Forecast/Forecasting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Planner/Planner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Planner/Planner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Realtime/Realtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Realtime/Realtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Forecast/Forecasting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Forecast/Forecasting.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Integration/Integration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Integration/Integration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Integration/Integration.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Integration/Integration.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Planner/Planne.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Planner/Planne.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Realtime/Realtime.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Realtime/Realtime.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Schedule/Schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Schedule/Schedule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Schedule/Schedule.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Schedule/Schedule.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Schedule/Schedule.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Schedule/Schedule.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/http/endpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/http/endpoints.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/header.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,35 +108,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetail.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2280">
-              <caret line="155" column="53" selection-start-line="155" selection-start-column="53" selection-end-line="155" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/UI/Input/Input.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" column="48" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="48" />
+            <state relative-caret-position="627">
+              <caret line="77" column="59" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="59" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#82#161#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/UI/Input/Input.module.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+            <state relative-caret-position="-81">
+              <caret line="139" column="31" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -101,7 +154,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>AgentDetailContainer</find>
       <find>80</find>
       <find>DateRangePicker</find>
       <find>container</find>
@@ -131,6 +183,7 @@
       <find>HeaderDiv</find>
       <find>AdminInputElement</find>
       <find>key</find>
+      <find>submitClientDetail</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -192,10 +245,10 @@
         <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js" />
         <option value="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.js" />
-        <option value="$PROJECT_DIR$/src/store/reducers/header.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/Input/Input.js" />
         <option value="$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetail.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Input/Input.module.css" />
+        <option value="$PROJECT_DIR$/src/components/UI/Input/Input.js" />
+        <option value="$PROJECT_DIR$/src/store/reducers/header.js" />
       </list>
     </option>
   </component>
@@ -219,7 +272,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,6 +288,19 @@
               <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,6 +309,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Clients" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
@@ -260,12 +333,13 @@
               <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
               <item name="Forms" type="462c0819:PsiDirectoryNode" />
-              <item name="LicenseDetails" type="462c0819:PsiDirectoryNode" />
+              <item name="AccountDetail" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -832,16 +906,37 @@
       <workItem from="1579445803647" duration="1689000" />
       <workItem from="1579447616696" duration="980000" />
       <workItem from="1579491855359" duration="5000" />
+      <workItem from="1579615196860" duration="384000" />
+      <workItem from="1579619558714" duration="599000" />
+      <workItem from="1579701676406" duration="1225000" />
+      <workItem from="1579750983208" duration="211000" />
+      <workItem from="1579793829037" duration="1381000" />
+      <workItem from="1579838591493" duration="1000" />
+      <workItem from="1580542201702" duration="256000" />
+      <workItem from="1580542616404" duration="3000" />
+      <workItem from="1582170771280" duration="169000" />
+      <workItem from="1582171853855" duration="394000" />
+      <workItem from="1582173665011" duration="598000" />
+      <workItem from="1582175969724" duration="598000" />
+      <workItem from="1582960787139" duration="840000" />
+      <workItem from="1582963906017" duration="705000" />
+      <workItem from="1583130949334" duration="141000" />
+      <workItem from="1583131234523" duration="364000" />
+      <workItem from="1583131786422" duration="611000" />
+      <workItem from="1583132893425" duration="177000" />
+      <workItem from="1583133135667" duration="533000" />
+      <workItem from="1583140304040" duration="534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="509225000" />
+    <option name="totallyTimeSpent" value="518949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1556791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1556791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -855,7 +950,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29278642" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27298445" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -906,160 +1001,150 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/DaysSelector/DaysSelector.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-615" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-315" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
           <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-60" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/IntegraationConfiguration/IntegrationConfiguration.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/IntegraationConfiguration/IntegrationConfiguration.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-450" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/IntegrationFileImport/FileImport.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/IntegrationFileImport/FileImport.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/IntegrationMapping/IntegrationMapping.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/IntegrationMapping/IntegrationMapping.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-585" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-345" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Logo/Logo.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Logo/Logo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-45" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2015" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProfileHeader/Profile.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/ProfileHeader/Profile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1950" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectMode/ProjectMode.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectMode/ProjectMode.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Spinner/Spinner.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Spinner/Spinner.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-315" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/Table.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Table/Table.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-60" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ToggleButton/Toggle.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/ToggleButton/Toggle.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/SelectDropdown/SelectDropdown.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/UI/SelectDropdown/SelectDropdown.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Tooltip/Tooltip.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Tooltip/Tooltip.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Clients/Client.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Clients/Client.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Dashboard/Dashboard.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Dashboard/Dashboard.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetails.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetails.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/LocationDetail/LocationDetail.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/LocationDetail/LocationDetail.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Onboarding/Onboarding.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Onboarding/Onboarding.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Analytics/Analytics.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1200" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Anomalies/Anomalies.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Anomalies/Anomalies.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Forecast/Forecasting.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Forecast/Forecasting.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
@@ -1075,28 +1160,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Planner/Planne.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Planner/Planne.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Realtime/Realtime.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Realtime/Realtime.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Schedule/Schedule.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Schedule/Schedule.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1410" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hoc/Layout/Layout.module.css">
+    <entry file="file://$PROJECT_DIR$/src/hoc/Layout/Layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1080" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Integration/Integration.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Integration/Integration.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-315" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetai.module.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetai.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
@@ -1109,16 +1194,6 @@
           <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1152,23 +1227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Clients/Clients.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1188,28 +1246,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="155" column="53" selection-start-line="155" selection-start-column="53" selection-end-line="155" selection-end-column="53" />
+        <state relative-caret-position="3165">
+          <caret line="214" column="39" selection-start-line="214" selection-start-column="39" selection-end-line="214" selection-end-column="39" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Input/Input.js">
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Input/Input.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="48" />
+        <state relative-caret-position="1785">
+          <caret line="119" column="19" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Clients/Clients.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Input/Input.module.css">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="139" column="31" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Input/Input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="77" column="59" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#82#161#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import classes from './Onboarding.module.css';
+import classes from './Onboarding.css';
 
 import ClientDetailForm from '../Forms/ClientDetail/ClientDetail';
 import AccountDetailForm from '../Forms/AccountDetail/AccountDetail';

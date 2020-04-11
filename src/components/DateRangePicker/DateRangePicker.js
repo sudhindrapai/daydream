@@ -3,7 +3,7 @@ import {Calendar} from "react-feather";
 import DateRangePicker from 'react-bootstrap-daterangepicker';
 import Moment from 'react-moment';
 
-import classes from './DateRangePicker.module.css';
+import classes from './DateRangePicker.css';
 
 class DateTimePicker extends Component {
     dateToFormat = new Date();

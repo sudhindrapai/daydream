@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Input.module.css';
+import classes from './Input.css';
 
 //import of images
 import selectedCheckboxUrl from '../../../assets/images/checkbox-selected.svg';
@@ -27,7 +27,6 @@ const input = (props) => {
 
     let drawMultiSelect = (configObj) => {
         let multiSelectDropdown = null;
-        console.log(props.value,"drawMultiSelect")
         if (configObj.isVisible){
             multiSelectDropdown = (configObj.options).map((option,index) => {
                 let checkBoxUrl = option.isSelected ? selectedCheckboxUrl : unSelectedCheckboxUrl;
@@ -45,9 +44,17 @@ const input = (props) => {
                 multiSelectClass = classes.MultiSelect
             }
 
+            let multiSelectOptionClasses =[classes.multiSelectOptions];
+
+            if (configObj.isVisible) {
+                multiSelectOptionClasses.push(classes.ShowMultiSelect)
+            } else {
+                multiSelectOptionClasses.push(classes.HideMultiSelect)
+            }
+
         return(<div onMouseEnter={props.toggleMultiSelect}
              onMouseLeave={props.toggleMultiSelect} className={multiSelectClass}>
-            <input value={props.value} /><div className={classes.multiSelectOptions}>{multiSelectDropdown}</div>
+            <input value={props.value} /><div className={multiSelectOptionClasses.join(" ")}>{multiSelectDropdown}</div>
             </div>)
     };
 

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import classes from './LicenseDetails.module.css';
+import classes from './LicenseDetails.css';
 import Input from "../../../../components/UI/Input/Input";
 import Button from '../../../../components/UI/Button/Button';
 
@@ -70,7 +70,7 @@ class LicenseDetail extends Component {
                 label: "Modules Included ",
                 elementType: "multiSelect",
                 elementConfig:{
-                    isVisible:true,
+                    isVisible:false,
                     options:[
                         {value:"FORECAST",displayValue:"FORECAST",isSelected:true},
                         {value:"ANOMALIES",displayValue:"ANOMALIES",isSelected:false},
@@ -127,7 +127,22 @@ class LicenseDetail extends Component {
     };
 
     toggleMultiSelectHandler = (formElementId) => {
-        console.log(formElementId,"toggleMultiSelectHandler")
+        console.log(formElementId,"toggleMultiSelectHandler");
+        let updatedLicenseDetailForm = {
+            ...this.state.licenseDetailForm
+        };
+        let updatedFromElement = {...updatedLicenseDetailForm[formElementId]};
+        let updatedConfigObj = {...updatedFromElement.elementConfig};
+        console.log(updatedFromElement)
+        updatedConfigObj["isVisible"] = !(updatedConfigObj.isVisible);
+        updatedFromElement.elementConfig = updatedConfigObj;
+        updatedLicenseDetailForm[formElementId] = updatedFromElement;
+
+        this.setState({
+            ...this.state,
+            licenseDetailForm:updatedLicenseDetailForm
+        })
+
     };
 
     updateMultiSelectOption = (formElementId,selectedObj) => {
@@ -158,7 +173,6 @@ class LicenseDetail extends Component {
             }
         }
 
-        console.log(updatedValue)
         updatedFormElement["value"] = updatedValue;
 
         updatedConfigObj["options"] = updatedOptionsArray;

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import classes from './Client.module.css';
+import classes from './Client.css';
 
 import Button from '../../../components/UI/Button/Button';
 

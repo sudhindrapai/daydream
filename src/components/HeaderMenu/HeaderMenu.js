@@ -5,7 +5,7 @@ import {withRouter} from 'react-router-dom';
 import {Calendar} from "react-feather";
 import * as actons from '../../store/actions/index';
 
-import classes from './HeaderMenu.module.css';
+import classes from './HeaderMenu.css';
 
 import DropdownButton from '../UI/ButtonDropdown/ButtonDropdown';
 import Profile from '../ProfileHeader/Profile';

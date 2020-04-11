@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import classes from './Logo.module.css';
+import classes from './Logo.css';
 
 import {NavLink} from "react-router-dom";
 

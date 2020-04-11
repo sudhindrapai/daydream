@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import classes from './Dashboard.module.css';
+import classes from './Dashboard.css';
 
 import {connect} from 'react-redux';
 import * as action from '../../../store/actions';

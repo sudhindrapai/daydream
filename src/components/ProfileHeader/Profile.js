@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {withRouter} from 'react-router-dom'
 import {User, Edit, LogOut, Repeat} from 'react-feather';
-import classes from './Profile.module.css';
+import classes from './Profile.css';
 
 class Profile extends Component{
     profileImg = null;

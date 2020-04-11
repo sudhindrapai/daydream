@@ -5,7 +5,7 @@ import {DownloadCloud} from "react-feather";
 
 import * as actions from '../../store/actions/index';
 
-import classes from './Analytics.module.css';
+import classes from './Analytics.css';
 
 import ContainerTitle from '../../components/ContainerTitle/ContainerTitle';
 import DateRangePicker from '../../components/DateRangePicker/DateRangePicker';

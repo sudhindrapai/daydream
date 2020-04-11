@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import classes from './FixedLeftMenuBar.module.css';
+import classes from './FixedLeftMenuBar.css';
 import {NavLink} from 'react-router-dom';
 import {Trello, Eye, Activity, Calendar, AlertCircle, Aperture, Box,Users} from "react-feather";
 import CrossBtn from '../ToggleCrossBtn/ToggleCrossBtn';

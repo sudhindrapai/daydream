@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import classes from './ProjectMode.module.css';
+import classes from './ProjectMode.css';
 
 import {Settings} from "react-feather";
 

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import classes from './Layout.module.css';
+import classes from './Layout.css';
 
 import LeftMenu from '../../components/LeftMenu/LeftMenu';
 import Logo from '../../components/Logo/Logo';

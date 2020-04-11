@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Table.module.css';
+import classes from './Table.css';
 
 const table = (props) => {
     let tableLineItemsArray = [];

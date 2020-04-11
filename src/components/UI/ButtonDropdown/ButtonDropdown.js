@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import classes from './ButtonDropdown.module.css';
+import classes from './ButtonDropdown.css';
 import {ChevronDown} from "react-feather";
 
 class ButtonDropdown extends Component{

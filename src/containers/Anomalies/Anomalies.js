@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import {connect} from 'react-redux';
 import * as actions from '../../store/actions/index';
-import classes from "./Anomalies.module.css";
+import classes from "./Anomalies.css";
 import ContainerTitle from "../../components/ContainerTitle/ContainerTitle";
 import AnomaliesGraph from '../../components/AnomaliesGraph/AnomaliesGraph';
 

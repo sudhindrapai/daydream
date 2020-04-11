@@ -2,7 +2,7 @@ import React from 'react';
 import {NavLink} from "react-router-dom";
 import {Trello,Eye,Activity,Calendar,AlertCircle,Aperture, PlusSquare,Box,Users} from "react-feather";
 
-import classes from './MenuItem.module.css'
+import classes from './MenuItem.css'
 
 const MenuItem = (props) => {
     let icon = null;

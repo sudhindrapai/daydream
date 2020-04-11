@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import classes from './CardWithChart.module.css';
+import classes from './CardWithChart.css';
 import Tooltip from '../../components/UI/Tooltip/Tooltip';
 import {Info} from "react-feather";
 import ApexChart from '../ApexGraph/AnalyticsGraph';

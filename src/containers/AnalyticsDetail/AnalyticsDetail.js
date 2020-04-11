@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import * as action from '../../store/actions/index';
 import {ChevronLeft, ChevronRight} from "react-feather";
 
-import classes from './AnalyticsDetail.module.css';
+import classes from './AnalyticsDetail.css';
 
 import PlotlyGraph from '../../components/PlotlyGraph/PlotlyGraph';
 import Table from '../../components/Table/Table';

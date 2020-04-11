@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import classes from './IntegrationConfiguration.module.css';
+import classes from './IntegrationConfiguration.css';
 
 import {connect} from 'react-redux';
 import * as action from '../../store/actions/index';

@@ -1,6 +1,6 @@
 import React, {Fragment, Component} from 'react';
 
-import classes from "./ForecastGraph.module.css";
+import classes from "./ForecastGraph.css";
 import PlotlyGraph from "../PlotlyGraph/PlotlyGraph";
 
 class forecastGraph extends Component{

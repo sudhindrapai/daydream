@@ -25,7 +25,7 @@ const updateHeaderValues = (state, action) => {
 
 const setHeaderResponse = (state, action) => {
     let responseObj = action.headerObj;
-    responseObj = headerResponse;
+    // responseObj = headerResponse;
     let imgUrl = "https://dummyimage.com/100x100/777777/ffffff",
         name = "",
         emailId = "",

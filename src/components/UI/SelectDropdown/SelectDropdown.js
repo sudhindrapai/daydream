@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import classes from './SelectDropdown.module.css';
+import classes from './SelectDropdown.css';
 
 const selectDropDown = (props) => {
 

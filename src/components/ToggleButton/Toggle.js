@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import classes from './Toggle.module.css';
+import classes from './Toggle.css';
 
 import {connect} from 'react-redux';
 

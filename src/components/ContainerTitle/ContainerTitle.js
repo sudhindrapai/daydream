@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './ContainerTitle.module.css';
+import classes from './ContainerTitle.css';
 
 const containerTitle = (props) => {
     let titleClasses = [classes.containerTitle].join(" ");

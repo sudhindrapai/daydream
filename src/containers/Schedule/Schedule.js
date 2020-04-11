@@ -1,5 +1,5 @@
 import React, {Component,Fragment} from 'react';
-import classes from './Schedule.module.css';
+import classes from './Schedule.css';
 
 import * as action from '../../store/actions/index';
 import {connect} from 'react-redux';

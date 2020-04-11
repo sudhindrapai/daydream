@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import classes from './LocationDetail.module.css';
+import classes from './LocationDetail.css';
 import Input from "../../../../components/UI/Input/Input";
 import Button from '../../../../components/UI/Button/Button';
 

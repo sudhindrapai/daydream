@@ -1,5 +1,5 @@
 import React, {Component,Fragment} from 'react';
-import classes from './Tooltip.module.css';
+import classes from './Tooltip.css';
 
 class tooltip extends Component{
 

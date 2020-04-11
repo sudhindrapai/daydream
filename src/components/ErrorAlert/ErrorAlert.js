@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './ErrorAlert.module.css';
+import classes from './ErrorAlert.css';
 import {X} from "react-feather";
 
 const errorAlert = (props) => {

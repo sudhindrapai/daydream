@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './ToggleCrossBtn.module.css';
+import classes from './ToggleCrossBtn.css';
 
 const toggleCrossBtn = (props) => {
     let viewClass = null;

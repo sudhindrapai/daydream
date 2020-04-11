@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './DaysSelector.module.css';
+import classes from './DaysSelector.css';
 
 const daysSelector = (props) => {
     let days7Class = "";

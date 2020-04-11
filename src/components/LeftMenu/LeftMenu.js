@@ -1,5 +1,5 @@
 import React, {Component,Fragment} from 'react';
-import classes from './LeftMenu.module.css';
+import classes from './LeftMenu.css';
 
 import {connect} from 'react-redux';
 

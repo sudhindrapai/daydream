@@ -1,6 +1,6 @@
 import React, {Component,Fragment} from 'react';
 import {connect} from 'react-redux';
-import classes from './Forecasting.module.css';
+import classes from './Forecasting.css';
 import ContainerTitle from "../../components/ContainerTitle/ContainerTitle";
 import DaysSelector from '../../components/DaysSelector/DaysSelector';
 import Spinner from '../../components/Spinner/Spinner';

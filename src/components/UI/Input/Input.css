@@ -148,3 +148,11 @@
     margin-bottom: 0 !important;
     margin-left: 10px;
 }
+
+.ShowMultiSelect{
+    visibility: visible;
+}
+
+.HideMultiSelect{
+    visibility: hidden;
+}

@@ -1,5 +1,5 @@
 import React, {Component,Fragment} from 'react';
-import classes from './Agents.module.css';
+import classes from './Agents.css';
 
 import {connect} from 'react-redux';
 import * as action from '../../store/actions/index';
