@@ -3,99 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b94943d-f392-4adc-8c22-352792301ecd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AgentList/Agents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AgentList/Agents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AgentList/Agents.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AgentList/Agents.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AnomaliesGraph/AnomaliesGraph.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Calendar/Calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Calendar/Calendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Calendar/Calendar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Calendar/Calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Calendar/EventList/EventList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Calendar/EventList/EventList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Calendar/EventList/EventList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Calendar/EventList/EventList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardWithChart/CardWithChart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContainerTitle/ContainerTitle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DateRangePicker/DateRangePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DateRangePicker/DateRangePicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DateRangePicker/DateRangePicker.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DateRangePicker/DateRangePicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DaysSelector/DaysSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DaysSelector/DaysSelector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DaysSelector/DaysSelector.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DaysSelector/DaysSelector.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ForecastGraph/ForecastGraph.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderMenu/HeaderMenu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IntegraationConfiguration/IntegrationConfiguration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IntegraationConfiguration/IntegrationConfiguration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IntegraationConfiguration/IntegrationConfiguration.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IntegraationConfiguration/IntegrationConfiguration.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IntegrationFileImport/FileImport.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IntegrationFileImport/FileImport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IntegrationFileImport/FileImport.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IntegrationFileImport/FileImport.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IntegrationMapping/IntegrationMapping.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IntegrationMapping/IntegrationMapping.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IntegrationMapping/IntegrationMapping.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IntegrationMapping/IntegrationMapping.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/LeftMenu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu/MenuItem/MenuItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NotificationsHeader/Notifications.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfileHeader/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileHeader/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfileHeader/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileHeader/Profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectMode/ProjectMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectMode/ProjectMode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectMode/ProjectMode.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectMode/ProjectMode.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Spinner/Spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Spinner/Spinner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToggleButton/Toggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleButton/Toggle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToggleButton/Toggle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleButton/Toggle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleCrossBtn/ToggleCrossBtn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/ButtonDropdown/ButtonDropdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Input/Input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/SelectDropdown/SelectDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SelectDropdown/SelectDropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/SelectDropdown/SelectDropdown.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SelectDropdown/SelectDropdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Tooltip/Tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Tooltip/Tooltip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Tooltip/Tooltip.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Tooltip/Tooltip.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Clients/Client.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Clients/Client.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Clients/Clients.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Clients/Clients.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Dashboard/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Dashboard/Dashboard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Dashboard/Dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetai.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetai.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/ClientDetail/ClientDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetails.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/LicenseDetails/LicenseDetails.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/LocationDetail/LocationDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/LocationDetail/LocationDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Forms/LocationDetail/LocationDetail.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Forms/LocationDetail/LocationDetail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Onboarding/Onboarding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Onboarding/Onboarding.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Admin/Onboarding/Onboarding.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Admin/Onboarding/Onboarding.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Analytics/Analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Analytics/Analytics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Analytics/Analytics.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Analytics/Analytics.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AnalyticsDetail/AnalyticsDetail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Anomalies/Anomalies.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Forecast/Forecasting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Forecast/Forecasting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Forecast/Forecasting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Forecast/Forecasting.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Integration/Integration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Integration/Integration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Integration/Integration.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Integration/Integration.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Planner/Planne.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Planner/Planne.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Realtime/Realtime.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Realtime/Realtime.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Schedule/Schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Schedule/Schedule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Schedule/Schedule.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Schedule/Schedule.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/header.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -108,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/UI/Input/Input.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="77" column="59" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="59" />
+            <state relative-caret-position="387">
+              <caret line="86" column="38" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#82#161#0" expanded="true" />
@@ -121,10 +28,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/store/actions/analytics.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="64" column="57" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
+            <state relative-caret-position="2040">
               <caret line="139" column="31" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -272,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,67 +199,10 @@
               <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="Clients" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="Forms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-daydream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-daydream" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="Forms" type="462c0819:PsiDirectoryNode" />
-              <item name="AccountDetail" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -926,15 +789,16 @@
       <workItem from="1583132893425" duration="177000" />
       <workItem from="1583133135667" duration="533000" />
       <workItem from="1583140304040" duration="534000" />
+      <workItem from="1586600297276" duration="76000" />
+      <workItem from="1601532222211" duration="145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="518949000" />
+    <option name="totallyTimeSpent" value="519170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1556791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1001,11 +865,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/ErrorAlert/ErrorAlert.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/FixedLeftMenuBar/FixedLeftMenuBar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
@@ -1285,16 +1144,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Input/Input.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="387">
+          <caret line="86" column="38" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#82#161#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Admin/Forms/AccountDetail/AccountDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
+        <state relative-caret-position="2040">
           <caret line="139" column="31" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -1302,13 +1165,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Input/Input.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="77" column="59" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="59" />
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/analytics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="64" column="57" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="57" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#82#161#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
